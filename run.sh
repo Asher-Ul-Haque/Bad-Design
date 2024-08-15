@@ -1,6 +1,27 @@
 #!/usr/bin/env sh
-# Forge requires a configured set of both JVM and program arguments.
-# Add custom JVM arguments to the user_jvm_args.txt
-# Add custom program arguments {such as nogui} to this file in the next line before the "$@" or
-#  pass them to this script directly
-java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.3.0/unix_args.txt "$@"
+
+# Function to handle errors
+handle_error() {
+    echo "Error occurred: $1"
+    exit 1
+}
+
+# Update the local repository
+echo "Updating the local repository..."
+git pull origin main || handle_error "Failed to pull from GitHub."
+
+# Start the playit.gg service in the background
+echo "Starting playit.gg service..."
+playit &
+
+# Save the PID of the playit.gg process
+PLAYIT_PID=$!
+
+# Start the Minecraft server
+echo "Starting Minecraft server..."
+java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.3.0/unix_args.txt "$@" || handle_error "Failed to start Minecraft server."
+
+# Commit and push changes
+echo "Committing and pushing changes..."
+git commit -am "Auto commit" || handle_error "Failed to commit changes."
+git push origin main || handle_error "Failed to push changes to GitHub."
