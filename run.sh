@@ -10,13 +10,6 @@ handle_error() {
 echo "Updating the local repository..."
 git pull origin main || handle_error "Failed to pull from GitHub."
 
-# Start the playit.gg service in the background
-echo "Starting playit.gg service..."
-playit &
-
-# Save the PID of the playit.gg process
-PLAYIT_PID=$!
-
 # Start the Minecraft server
 echo "Starting Minecraft server..."
 java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.3.0/unix_args.txt "$@" || handle_error "Failed to start Minecraft server."

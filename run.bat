@@ -6,7 +6,6 @@ if errorlevel 1 exit /b 1
 
 REM Start the playit.gg service in the background
 echo Starting playit.gg service...
-start "" playit
 
 REM Start the Minecraft server
 echo Starting Minecraft server...
