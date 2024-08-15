@@ -1,0 +1,15 @@
+# Ignore configuration files that should not be committed
+eula.txt
+
+
+# Ignore scripts and user-specific files
+run.sh
+run.bat
+user_jvm_args.txt
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
