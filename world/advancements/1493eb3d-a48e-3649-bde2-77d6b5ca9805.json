@@ -18,7 +18,9 @@
       "minecraft:deep_ocean": "2024-05-14 16:57:11 +0530",
       "minecraft:frozen_river": "2024-07-18 16:01:31 +0530",
       "minecraft:cherry_grove": "2024-05-11 20:04:09 +0530",
+      "minecraft:wooded_badlands": "2024-08-18 21:18:31 +0530",
       "minecraft:beach": "2024-05-11 19:11:08 +0530",
+      "minecraft:mangrove_swamp": "2024-08-18 20:57:39 +0530",
       "minecraft:river": "2024-07-05 18:30:07 +0530",
       "minecraft:snowy_plains": "2024-07-27 21:49:15 +0530",
       "minecraft:dripstone_caves": "2024-07-27 21:58:10 +0530",
@@ -27,7 +29,10 @@
       "minecraft:deep_cold_ocean": "2024-05-14 16:55:45 +0530",
       "minecraft:ice_spikes": "2024-05-15 00:27:02 +0530",
       "minecraft:frozen_ocean": "2024-05-15 15:37:55 +0530",
+      "minecraft:desert": "2024-08-18 21:15:09 +0530",
+      "minecraft:jungle": "2024-08-18 21:25:43 +0530",
       "minecraft:snowy_beach": "2024-05-15 15:39:46 +0530",
+      "minecraft:windswept_savanna": "2024-08-18 21:14:28 +0530",
       "minecraft:flower_forest": "2024-07-05 18:27:48 +0530",
       "minecraft:frozen_peaks": "2024-07-18 16:37:36 +0530",
       "minecraft:deep_dark": "2024-05-14 15:54:36 +0530",
@@ -357,6 +362,7 @@
     "criteria": {
       "minecraft:pillager": "2024-05-11 20:03:01 +0530",
       "minecraft:skeleton": "2024-05-11 18:39:06 +0530",
+      "minecraft:guardian": "2024-08-18 21:06:11 +0530",
       "minecraft:spider": "2024-05-11 19:14:42 +0530",
       "minecraft:creeper": "2024-05-11 18:15:36 +0530",
       "minecraft:slime": "2024-05-15 15:08:23 +0530",
@@ -3850,6 +3856,54 @@
   "alexsmobs:alexsmobs/novelty_hat": {
     "criteria": {
       "sopa_de_macaco": "2024-08-03 13:16:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2024-08-18 21:01:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-08-18 21:01:37 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_roller": {
+    "criteria": {
+      "killed_by": "2024-08-18 21:18:57 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_shell": {
+    "criteria": {
+      "soul_heart": "2024-08-18 21:19:37 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/uranium": {
+    "criteria": {
+      "uranium": "2024-08-18 21:03:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-08-18 20:53:24 +0530"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2024-08-18 21:15:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-08-18 21:06:11 +0530"
     },
     "done": true
   },

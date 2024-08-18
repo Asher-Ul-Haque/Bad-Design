@@ -31,6 +31,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-08-18 20:41:12 +0530",
       "minecraft:taiga": "2024-07-02 19:35:44 +0530",
       "minecraft:frozen_river": "2024-06-27 16:43:06 +0530",
       "minecraft:cherry_grove": "2024-06-24 07:13:09 +0530",
