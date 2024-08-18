@@ -1,40 +1,40 @@
-[18Aug2024 19:29:35.120] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[18Aug2024 19:29:35.123] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Arch Linux; OS Linux arch amd64 version 6.9.10-arch1-1
-[18Aug2024 19:29:35.395] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Aug2024 19:29:35.434] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Aug2024 19:29:35.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[18Aug2024 19:29:35.671] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Aug2024 19:29:35.673] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Aug2024 19:29:35.674] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[18Aug2024 19:29:35.773] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[18Aug2024 19:29:36.907] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Aug2024 19:29:36.975] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[18Aug2024 19:29:36.977] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[18Aug2024 19:29:36.991] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2024 19:29:36.992] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2024 19:29:37.007] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Aug2024 19:29:37.470] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[18Aug2024 19:29:37.470] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[18Aug2024 19:29:37.470] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[18Aug2024 19:29:37.471] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[18Aug2024 19:29:37.472] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[18Aug2024 19:29:37.472] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[18Aug2024 19:29:37.472] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[18Aug2024 19:29:37.473] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[18Aug2024 19:29:41.913] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[18Aug2024 19:29:41.913] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[18Aug2024 19:29:43.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[18Aug2024 19:29:43.941] [main/INFO] [journeymap/]: Initializing Packet Registries
-[18Aug2024 19:29:44.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.1
-[18Aug2024 19:29:44.725] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Aug2024 19:29:45.196] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Aug2024 19:29:45.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[18Aug2024 19:29:46.291] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[18Aug2024 19:29:46.292] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[18Aug2024 19:29:46.326] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[18Aug2024 19:29:46.326] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[18Aug2024 19:29:47.742] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[18Aug2024 19:29:48.197] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[18Aug2024 19:41:01.942] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[18Aug2024 19:41:01.947] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Arch Linux; OS Linux arch amd64 version 6.9.10-arch1-1
+[18Aug2024 19:41:02.235] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Aug2024 19:41:02.275] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Aug2024 19:41:02.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[18Aug2024 19:41:02.545] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Aug2024 19:41:02.546] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Aug2024 19:41:02.548] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/kermit/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[18Aug2024 19:41:02.660] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[18Aug2024 19:41:03.954] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Aug2024 19:41:04.053] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[18Aug2024 19:41:04.055] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[18Aug2024 19:41:04.073] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Aug2024 19:41:04.073] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Aug2024 19:41:04.094] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Aug2024 19:41:04.790] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[18Aug2024 19:41:04.790] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[18Aug2024 19:41:04.791] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[18Aug2024 19:41:04.799] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[18Aug2024 19:41:04.799] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[18Aug2024 19:41:04.799] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[18Aug2024 19:41:04.800] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[18Aug2024 19:41:04.800] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[18Aug2024 19:41:09.582] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[18Aug2024 19:41:09.582] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[18Aug2024 19:41:11.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18Aug2024 19:41:11.783] [main/INFO] [journeymap/]: Initializing Packet Registries
+[18Aug2024 19:41:12.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.1
+[18Aug2024 19:41:12.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Aug2024 19:41:13.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[18Aug2024 19:41:13.202] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Aug2024 19:41:14.313] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[18Aug2024 19:41:14.313] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/kermit/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[18Aug2024 19:41:14.343] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[18Aug2024 19:41:14.343] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[18Aug2024 19:41:15.784] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18Aug2024 19:41:16.227] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
 	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
@@ -70,133 +70,46 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Aug2024 19:29:48.209] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[18Aug2024 19:29:48.291] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
-[18Aug2024 19:29:48.295] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
-[18Aug2024 19:29:49.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18Aug2024 19:29:49.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18Aug2024 19:29:49.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18Aug2024 19:29:49.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Aug2024 19:29:49.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18Aug2024 19:29:49.762] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18Aug2024 19:29:49.869] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18Aug2024 19:29:49.869] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18Aug2024 19:29:49.870] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18Aug2024 19:29:49.870] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18Aug2024 19:29:49.884] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Aug2024 19:29:49.885] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Aug2024 19:29:49.886] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[18Aug2024 19:29:49.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18Aug2024 19:29:52.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Aug2024 19:29:55.277] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.297] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.303] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.309] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.312] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.320] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:55.871] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Aug2024 19:29:56.371] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[18Aug2024 19:29:57.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4946 ms
-[18Aug2024 19:29:57.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.435s)! For help, type "help"
-[18Aug2024 19:29:57.341] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Aug2024 19:31:31.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[18Aug2024 19:31:31.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[18Aug2024 19:31:31.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[18Aug2024 19:31:31.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[18Aug2024 19:31:31.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[18Aug2024 19:31:31.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
-[18Aug2024 19:31:31.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
-[18Aug2024 19:31:31.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[18Aug2024 19:31:31.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[18Aug2024 19:31:31.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[18Aug2024 19:31:31.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
-[18Aug2024 19:31:31.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[18Aug2024 19:31:31.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[18Aug2024 19:31:31.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[18Aug2024 19:31:31.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[18Aug2024 19:31:31.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[18Aug2024 19:31:31.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[18Aug2024 19:31:31.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[18Aug2024 19:31:31.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
-[18Aug2024 19:31:31.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[18Aug2024 19:31:31.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[18Aug2024 19:31:31.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[18Aug2024 19:31:31.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doSeasonCycle|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[18Aug2024 19:31:31.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[18Aug2024 19:31:31.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[18Aug2024 19:31:31.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[18Aug2024 19:31:31.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[18Aug2024 19:31:31.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[18Aug2024 19:31:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[18Aug2024 19:31:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[18Aug2024 19:31:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[18Aug2024 19:31:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[18Aug2024 19:31:31.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[18Aug2024 19:31:31.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[18Aug2024 19:31:31.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[18Aug2024 19:31:31.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[18Aug2024 19:31:31.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[18Aug2024 19:31:31.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[18Aug2024 19:31:31.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[18Aug2024 19:31:31.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
-[18Aug2024 19:31:31.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
-[18Aug2024 19:31:31.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[18Aug2024 19:31:31.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[18Aug2024 19:31:31.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[18Aug2024 19:31:31.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[18Aug2024 19:31:31.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[18Aug2024 19:31:31.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[18Aug2024 19:31:31.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[18Aug2024 19:31:31.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[18Aug2024 19:31:31.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[18Aug2024 19:31:31.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[18Aug2024 19:31:31.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[18Aug2024 19:31:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[18Aug2024 19:31:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[18Aug2024 19:31:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[18Aug2024 19:31:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[18Aug2024 19:31:31.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
-[18Aug2024 19:31:31.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[18Aug2024 19:31:31.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[18Aug2024 19:31:31.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[18Aug2024 19:31:31.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[18Aug2024 19:31:31.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[18Aug2024 19:31:31.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[18Aug2024 19:31:31.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[18Aug2024 19:31:31.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[18Aug2024 19:31:31.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[18Aug2024 19:31:31.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[18Aug2024 19:31:31.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[18Aug2024 19:31:31.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[18Aug2024 19:31:31.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[18Aug2024 19:31:31.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[18Aug2024 19:31:31.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[18Aug2024 19:31:31.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[18Aug2024 19:31:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[18Aug2024 19:31:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[18Aug2024 19:31:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[18Aug2024 19:31:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[18Aug2024 19:31:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[18Aug2024 19:31:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[18Aug2024 19:31:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /season (set|get)
-[18Aug2024 19:31:31.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[18Aug2024 19:31:31.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[18Aug2024 19:31:31.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /end_island reset [<forceNewPortalPos>]
-[18Aug2024 19:31:31.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waypoint (create|delete)
-[18Aug2024 19:31:31.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /wp -> waypoint
-[18Aug2024 19:31:58.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The nearest minecraft:desert is at [2124, 95, 725] (3106 blocks away)
-[18Aug2024 19:31:58.949] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:desert took 6863 ms
-[18Aug2024 19:31:58.950] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6823ms or 136 ticks behind
-[18Aug2024 19:32:26.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[18Aug2024 19:32:26.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Aug2024 19:32:26.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Aug2024 19:32:26.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Aug2024 19:32:26.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18Aug2024 19:32:27.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18Aug2024 19:32:27.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18Aug2024 19:32:27.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18Aug2024 19:32:27.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Aug2024 19:32:27.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Aug2024 19:32:27.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18Aug2024 19:32:27.294] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Aug2024 19:41:16.238] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[18Aug2024 19:41:16.323] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
+[18Aug2024 19:41:16.328] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+[18Aug2024 19:41:17.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Aug2024 19:41:17.604] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Aug2024 19:41:17.604] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Aug2024 19:41:17.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Aug2024 19:41:17.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Aug2024 19:41:17.715] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Aug2024 19:41:17.837] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Aug2024 19:41:17.838] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Aug2024 19:41:17.838] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Aug2024 19:41:17.838] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Aug2024 19:41:17.855] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Aug2024 19:41:17.856] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Aug2024 19:41:17.857] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18Aug2024 19:41:17.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Aug2024 19:41:20.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Aug2024 19:41:23.361] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.389] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.399] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.409] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.418] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.426] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.433] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Aug2024 19:41:23.884] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[18Aug2024 19:41:24.384] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[18Aug2024 19:41:25.353] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4970 ms
+[18Aug2024 19:41:25.354] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.501s)! For help, type "help"
+[18Aug2024 19:41:25.375] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Aug2024 19:41:58.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hello
+[18Aug2024 19:42:07.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18Aug2024 19:42:07.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Aug2024 19:42:07.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Aug2024 19:42:07.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Aug2024 19:42:07.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Aug2024 19:42:07.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Aug2024 19:42:07.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Aug2024 19:42:07.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Aug2024 19:42:07.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Aug2024 19:42:07.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Aug2024 19:42:07.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Aug2024 19:42:07.765] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
