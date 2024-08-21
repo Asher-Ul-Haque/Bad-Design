@@ -33,6 +33,7 @@
       "minecraft:snowy_beach": "2024-06-08 10:38:39 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-05-20 18:09:45 +0530",
       "minecraft:flower_forest": "2024-07-02 19:04:46 +0530",
+      "minecraft:deep_dark": "2024-08-21 20:31:47 +0530",
       "minecraft:meadow": "2024-08-11 20:17:12 +0530",
       "minecraft:savanna": "2024-05-20 18:17:38 +0530",
       "minecraft:plains": "2024-05-20 10:46:47 +0530"
@@ -3916,6 +3917,18 @@
   "takesapillage:bastille": {
     "criteria": {
       "in_bastille": "2024-08-11 20:18:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-08-21 20:25:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-08-21 20:33:12 +0530"
     },
     "done": true
   },

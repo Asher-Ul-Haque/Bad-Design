@@ -3859,6 +3859,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-08-18 20:53:24 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
       "has_light_gray_terracotta": "2024-08-18 21:01:37 +0530"
@@ -3868,6 +3874,24 @@
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2024-08-18 21:01:37 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/uranium": {
+    "criteria": {
+      "uranium": "2024-08-18 21:03:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-08-18 21:06:11 +0530"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2024-08-18 21:15:27 +0530"
     },
     "done": true
   },
@@ -3883,27 +3907,15 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/uranium": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "uranium": "2024-08-18 21:03:05 +0530"
+      "elytra": "2024-08-21 20:25:30 +0530"
     },
     "done": true
   },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
-      "kill_mob_near_sculk_catalyst": "2024-08-18 20:53:24 +0530"
-    },
-    "done": true
-  },
-  "betterdeserttemples:temple_entry": {
-    "criteria": {
-      "in_better_desert_temple": "2024-08-18 21:15:27 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sea_lantern": {
-    "criteria": {
-      "has_prismarine_crystals": "2024-08-18 21:06:11 +0530"
+      "has_lily_of_the_valley": "2024-08-21 21:07:34 +0530"
     },
     "done": true
   },
