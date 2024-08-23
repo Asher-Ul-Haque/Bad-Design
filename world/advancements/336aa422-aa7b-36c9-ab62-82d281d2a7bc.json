@@ -5735,5 +5735,11 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/hamburger": {
+    "criteria": {
+      "has_beef_patty": "2024-08-23 11:21:55 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
