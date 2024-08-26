@@ -1,40 +1,40 @@
-[25Aug2024 19:02:39.710] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[25Aug2024 19:02:39.731] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Debian; OS Linux arch amd64 version 6.1.0-23-amd64
-[25Aug2024 19:03:22.009] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25Aug2024 19:03:24.362] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/anousha/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25Aug2024 19:03:27.594] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[25Aug2024 19:03:27.774] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Aug2024 19:03:27.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Aug2024 19:03:28.058] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[25Aug2024 19:03:30.160] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[25Aug2024 19:03:46.260] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Aug2024 19:03:47.270] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[25Aug2024 19:03:47.278] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[25Aug2024 19:03:47.468] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Aug2024 19:03:47.470] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Aug2024 19:03:47.841] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Aug2024 19:03:52.000] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[25Aug2024 19:03:52.002] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[25Aug2024 19:03:52.004] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[25Aug2024 19:03:52.013] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[25Aug2024 19:03:52.014] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[25Aug2024 19:03:52.036] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[25Aug2024 19:03:52.040] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[25Aug2024 19:03:52.041] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[25Aug2024 19:04:30.305] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[25Aug2024 19:04:30.305] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[25Aug2024 19:04:36.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[25Aug2024 19:04:37.610] [main/INFO] [journeymap/]: Initializing Packet Registries
-[25Aug2024 19:04:40.142] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.1
-[25Aug2024 19:04:40.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25Aug2024 19:04:40.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[25Aug2024 19:04:41.303] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25Aug2024 19:04:45.074] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/anousha/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[25Aug2024 19:04:45.075] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/anousha/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[25Aug2024 19:04:45.210] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[25Aug2024 19:04:45.210] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[25Aug2024 19:04:52.080] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[25Aug2024 19:04:54.410] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[26Aug2024 07:11:36.774] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Aug2024 07:11:36.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Debian; OS Linux arch amd64 version 6.1.0-23-amd64
+[26Aug2024 07:12:01.518] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Aug2024 07:12:02.525] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/anousha/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Aug2024 07:12:04.513] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[26Aug2024 07:12:04.601] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Aug2024 07:12:04.660] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Aug2024 07:12:04.720] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/anousha/Bad-Design/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[26Aug2024 07:12:06.054] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[26Aug2024 07:12:18.535] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Aug2024 07:12:19.553] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[26Aug2024 07:12:19.556] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Aug2024 07:12:19.712] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Aug2024 07:12:19.720] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Aug2024 07:12:19.782] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Aug2024 07:12:22.815] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[26Aug2024 07:12:22.816] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[26Aug2024 07:12:22.816] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[26Aug2024 07:12:22.817] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[26Aug2024 07:12:22.817] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[26Aug2024 07:12:22.818] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[26Aug2024 07:12:22.837] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[26Aug2024 07:12:22.838] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[26Aug2024 07:12:48.898] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[26Aug2024 07:12:48.899] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[26Aug2024 07:12:57.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Aug2024 07:12:58.168] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Aug2024 07:12:59.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.1
+[26Aug2024 07:12:59.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Aug2024 07:13:00.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[26Aug2024 07:13:01.545] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Aug2024 07:13:03.772] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/anousha/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[26Aug2024 07:13:03.772] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/anousha/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[26Aug2024 07:13:03.892] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[26Aug2024 07:13:03.892] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[26Aug2024 07:13:10.200] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Aug2024 07:13:12.860] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -72,14 +72,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[25Aug2024 19:04:54.470] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[25Aug2024 19:04:54.948] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
-[25Aug2024 19:04:54.967] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
-[25Aug2024 19:04:58.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[25Aug2024 19:04:58.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25Aug2024 19:04:58.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25Aug2024 19:04:58.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25Aug2024 19:04:59.244] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+[26Aug2024 07:13:12.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[26Aug2024 07:13:13.481] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
+[26Aug2024 07:13:13.541] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+[26Aug2024 07:13:18.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Aug2024 07:13:18.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Aug2024 07:13:18.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Aug2024 07:13:18.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Aug2024 07:13:18.376] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46) ~[jline-terminal-3.12.1.jar%2364!/:?]
 	at org.jline.reader.impl.LineReaderImpl.defaultKeyMaps(LineReaderImpl.java:5541) ~[jline-reader-3.12.1.jar%2363!/:?]
@@ -93,117 +93,237 @@ Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input
 	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
 	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44) ~[jline-terminal-3.12.1.jar%2364!/:?]
 	... 5 more
-[25Aug2024 19:04:59.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25Aug2024 19:05:00.253] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25Aug2024 19:05:00.823] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25Aug2024 19:05:00.823] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25Aug2024 19:05:00.823] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25Aug2024 19:05:00.823] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25Aug2024 19:05:00.971] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25Aug2024 19:05:00.972] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25Aug2024 19:05:01.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25Aug2024 19:05:19.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Aug2024 19:05:38.293] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.399] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.650] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.750] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.824] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:38.850] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.064] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.123] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.193] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.337] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.350] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.363] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.364] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.381] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.409] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.427] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.453] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.468] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.489] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.492] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.577] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.770] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.836] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.994] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:39.997] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.037] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.040] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.044] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.047] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.268] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.290] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.292] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.302] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:40.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.243] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.287] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.325] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.328] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.356] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:43.879] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:44.600] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.680] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.725] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.762] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.771] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:48.857] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:49.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:49.854] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:50.356] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:50.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:51.357] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:51.874] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:52.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:52.862] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:53.357] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2024 19:05:53.879] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[25Aug2024 19:05:54.364] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[25Aug2024 19:05:54.865] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[25Aug2024 19:05:57.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[25Aug2024 19:05:57.170] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[25Aug2024 19:05:57.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[25Aug2024 19:05:57.196] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[25Aug2024 19:05:57.362] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[25Aug2024 19:05:57.853] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[25Aug2024 19:05:58.355] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[25Aug2024 19:05:58.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[25Aug2024 19:06:00.152] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 40299 ms
-[25Aug2024 19:06:00.153] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (59.220s)! For help, type "help"
-[25Aug2024 19:06:00.348] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25Aug2024 19:06:02.943] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2273ms or 45 ticks behind
-[25Aug2024 19:06:25.684] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7764ms or 155 ticks behind
-[25Aug2024 19:07:09.576] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.0.0.1:52054] logged in with entity id 115 at (-713.6607309559146, 76.0, 2136.1823921151395)
-[25Aug2024 19:07:09.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
-[25Aug2024 19:07:12.072] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[25Aug2024 19:13:49.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by Zombie
-[25Aug2024 19:19:43.469] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[25Aug2024 19:20:01.858] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[25Aug2024 19:24:32.891] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
-[25Aug2024 19:24:32.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
-[25Aug2024 19:25:18.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[25Aug2024 19:25:18.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Aug2024 19:25:18.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Aug2024 19:25:18.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Aug2024 19:25:18.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[25Aug2024 19:25:18.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[25Aug2024 19:25:18.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[25Aug2024 19:25:18.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Aug2024 19:25:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Aug2024 19:25:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Aug2024 19:25:18.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[25Aug2024 19:25:19.082] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Aug2024 07:13:18.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Aug2024 07:13:18.853] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Aug2024 07:13:19.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Aug2024 07:13:19.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Aug2024 07:13:19.600] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Aug2024 07:13:19.600] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Aug2024 07:13:19.767] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Aug2024 07:13:19.779] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Aug2024 07:13:20.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Aug2024 07:13:39.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Aug2024 07:14:00.836] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.898] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.900] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.903] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.903] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.905] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.910] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.911] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.912] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.912] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.913] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.913] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.914] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.914] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.919] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.920] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.921] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.921] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.922] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.923] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.924] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.940] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.941] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.941] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.942] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.942] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.946] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.948] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.949] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.949] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.950] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.951] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.953] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.954] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.955] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.955] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.957] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.958] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.959] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:00.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:01.019] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:01.521] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Aug2024 07:14:02.023] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[26Aug2024 07:14:02.518] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[26Aug2024 07:14:03.018] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[26Aug2024 07:14:03.518] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[26Aug2024 07:14:04.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[26Aug2024 07:14:04.159] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25142 ms
+[26Aug2024 07:14:04.160] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (44.409s)! For help, type "help"
+[26Aug2024 07:14:04.316] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Aug2024 07:14:46.806] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.0.0.1:49114] logged in with entity id 9 at (-1771.3187561210498, 62.07326432466507, 3079.450677137799)
+[26Aug2024 07:14:46.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
+[26Aug2024 07:14:51.663] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[26Aug2024 07:15:20.503] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13868ms or 277 ticks behind
+[26Aug2024 07:15:45.627] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10142ms or 202 ticks behind
+[26Aug2024 07:16:17.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[26Aug2024 07:16:35.512] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[26Aug2024 07:16:53.189] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2704ms or 54 ticks behind
+[26Aug2024 07:17:13.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made somebody_just a server operator
+[26Aug2024 07:17:26.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Creative Mode]
+[26Aug2024 07:18:33.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
+[26Aug2024 07:19:41.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.30400270562631704
+[26Aug2024 07:25:37.463] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.45921614482688256
+[26Aug2024 07:25:37.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.9576966249874204
+[26Aug2024 07:25:52.547] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -9.67119752760982,-2.5160163692080317,-1.5194956497084604
+[26Aug2024 07:25:52.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.367175112487644,-1.5160163692080317,-1.573006569705285
+[26Aug2024 07:25:52.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.064736169751427,-1.5160163692080317,-1.592533989470212
+[26Aug2024 07:25:53.308] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2273ms or 45 ticks behind
+[26Aug2024 07:25:58.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.49484333452483,1.0,0.008888087306786474
+[26Aug2024 07:25:58.082] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.19449980945501,1.0,0.009480626460572239
+[26Aug2024 07:25:58.083] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.894156284454311,1.0,0.010073165614358004
+[26Aug2024 07:25:58.083] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -12.593812759490675,1.0,0.010665704768143769
+[26Aug2024 07:25:58.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.293466617101444,1.0,0.012100269319034851
+[26Aug2024 07:25:58.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.993119074179958,1.0,0.013534833869925933
+[26Aug2024 07:25:58.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -14.692770781861554,1.0,0.014969398420817015
+[26Aug2024 07:25:58.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -15.392422088555918,1.0,0.016403962971708097
+[26Aug2024 07:25:58.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.09207318068991,1.0,0.01783852752259918
+[26Aug2024 07:25:58.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.791724158016905,1.0,0.01927309207349026
+[26Aug2024 07:25:58.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -17.49137507391299,1.0,0.020707656624381343
+[26Aug2024 07:25:58.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -18.191025956938688,1.0,0.022142221175272425
+[26Aug2024 07:25:58.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -18.890676822376008,1.0,0.023576785726163507
+[26Aug2024 07:25:58.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -19.59032767840222,1.0,0.02501135027705459
+[26Aug2024 07:25:58.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -20.28997852939267,1.0,0.02644591482794567
+[26Aug2024 07:25:58.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -20.98962937768863,1.0,0.027880479378836753
+[26Aug2024 07:25:58.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -21.689280224542813,1.0,0.029315043929727835
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -22.388931070625517,1.0,0.030749608480618917
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -23.088581916295425,1.0,0.03218417303151
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -23.78823276174444,1.0,0.03361873758240108
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -24.48788360707522,1.0,0.035053302133292163
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -24.86225282487885,1.0,0.035053302133292163
+[26Aug2024 07:25:58.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.062570329208597,1.0,0.035053302133292163
+[26Aug2024 07:25:58.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.169756231875226,1.0,0.035053302133292163
+[26Aug2024 07:25:58.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.22710927133585,1.0,0.035053302133292163
+[26Aug2024 07:25:58.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.25779773925501,1.0,0.035053302133292163
+[26Aug2024 07:25:58.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.274218526576533,1.0,0.035053302133292163
+[26Aug2024 07:25:58.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.283004962477094,1.0,0.035053302133292163
+[26Aug2024 07:25:58.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:25:58.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -25.28770640914479,1.0,0.035053302133292163
+[26Aug2024 07:26:32.441] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[26Aug2024 07:26:51.265] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3829ms or 76 ticks behind
+[26Aug2024 07:27:09.300] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3065ms or 61 ticks behind
+[26Aug2024 07:27:37.477] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/3426, l='ServerLevel[world]', x=-1438.73, y=64.00, z=2422.46] died, message: 'Butcher was slain by Froststalker'
+[26Aug2024 07:28:47.153] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3417, l='ServerLevel[world]', x=-1428.22, y=67.94, z=2448.85] died, message: 'Villager was slain by somebody_just'
+[26Aug2024 07:31:17.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Summoned new Horse]
+[26Aug2024 07:32:57.716] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[26Aug2024 07:32:57.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -9.764247756254008,0.0,-3.382671043960272
+[26Aug2024 07:32:57.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.379988408834606,0.0,-3.7667126366477532
+[26Aug2024 07:32:57.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.983652799886613,0.0,-4.169676444333163
+[26Aug2024 07:32:57.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.576943468814534,0.0,-4.5890014312581116
+[26Aug2024 07:32:57.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -12.161341480355986,0.0,-5.022455179355802
+[26Aug2024 07:32:57.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -12.738140783847484,0.0,-5.46808618751038
+[26Aug2024 07:32:57.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.308822266765219,0.0,-5.92383831484085
+[26Aug2024 07:32:57.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.87484605760801,0.0,-6.387736552655497
+[26Aug2024 07:32:57.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -14.436799193044408,0.0,-6.85875419813965
+[26Aug2024 07:32:57.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -14.995370547942684,0.0,-7.335813134503951
+[26Aug2024 07:32:57.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -15.550986348242532,0.0,-7.818151941883116
+[26Aug2024 07:32:57.795] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.10401910009,0.0,-8.305105166691646
+[26Aug2024 07:32:57.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.655132074145058,0.0,-8.795741181742414
+[26Aug2024 07:32:57.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -17.20490933544511,0.0,-9.28923749610567
+[26Aug2024 07:32:57.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -17.754025754745953,0.0,-9.784696046009685
+[26Aug2024 07:32:57.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -9.168240835561619,0.0,-7.261217343069347
+[26Aug2024 07:32:57.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -9.716585744507938,0.0,-7.7595562758128835
+[26Aug2024 07:32:57.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.26461619184147,0.0,-8.259069230171917
+[26Aug2024 07:32:57.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -10.812371811032108,0.0,-8.759608237211069
+[26Aug2024 07:32:57.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.359887240307216,0.0,-9.261043977400732
+[26Aug2024 07:32:57.855] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -11.90719275223205,0.0,-9.763263430122151
+[26Aug2024 07:32:57.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -12.454480202837658,0.0,-10.26598951833148
+[26Aug2024 07:32:57.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.001751868499696,0.0,-10.7691583877413
+[26Aug2024 07:32:57.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -13.549345218006692,0.0,-11.272349705956458
+[26Aug2024 07:32:57.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -14.097553266177556,0.0,-11.775194353605912
+[26Aug2024 07:32:57.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -14.646298538879137,0.0,-12.277736023645048
+[26Aug2024 07:32:57.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -15.195838938784163,0.0,-12.779651562451363
+[26Aug2024 07:32:57.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -15.746565105655236,0.0,-13.280467980490812
+[26Aug2024 07:32:58.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.29865438408069,0.0,-13.779951468583022
+[26Aug2024 07:32:58.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -16.85193497299406,0.0,-14.278270023826735
+[26Aug2024 07:32:58.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -17.406740287738558,0.0,-14.775012158768732
+[26Aug2024 07:32:58.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -17.962878158038166,0.0,-15.27037655904769
+[26Aug2024 07:32:58.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -18.521289852655627,0.0,-15.763221808655999
+[26Aug2024 07:32:58.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -19.083231999554982,0.0,-16.251950998436314
+[26Aug2024 07:32:58.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -19.64960688319684,0.0,-16.735323761465224
+[26Aug2024 07:32:58.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -20.22130190054304,0.0,-17.212026403801246
+[26Aug2024 07:32:58.032] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -20.79876358760839,0.0,-17.681284721263182
+[26Aug2024 07:32:58.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -21.381265136667935,0.0,-18.144036966445583
+[26Aug2024 07:32:58.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -21.96871715578368,0.0,-18.60028703011676
+[26Aug2024 07:32:58.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved too quickly! -22.560767874487055,0.0,-19.050440470097328
+[26Aug2024 07:33:12.811] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.589407639398587
+[26Aug2024 07:33:12.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.38791645642209005
+[26Aug2024 07:33:12.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.28872638425696096
+[26Aug2024 07:33:13.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.3869686418108813
+[26Aug2024 07:33:13.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.3246073762534252
+[26Aug2024 07:33:14.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.6316253045674785
+[26Aug2024 07:33:14.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.4337702921829987
+[26Aug2024 07:33:20.842] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8157ms or 163 ticks behind
+[26Aug2024 07:33:28.819] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.424531901339833
+[26Aug2024 07:33:28.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.636987264219897
+[26Aug2024 07:33:28.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.27482164738694337
+[26Aug2024 07:33:28.921] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.3499560220479907
+[26Aug2024 07:33:28.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8814470803390577
+[26Aug2024 07:33:34.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.42617599171444454
+[26Aug2024 07:33:40.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.4538887934295417
+[26Aug2024 07:33:40.059] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8101681730022392
+[26Aug2024 07:33:40.120] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8335041647683283
+[26Aug2024 07:33:40.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8477599742202528
+[26Aug2024 07:33:40.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8536880133860905
+[26Aug2024 07:33:40.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8540166768550534
+[26Aug2024 07:33:40.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8526472550367998
+[26Aug2024 07:33:40.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8539271377942441
+[26Aug2024 07:33:40.371] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8566795369806641
+[26Aug2024 07:33:40.443] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.858556735430966
+[26Aug2024 07:33:40.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8587078394527907
+[26Aug2024 07:33:40.560] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8578949613104214
+[26Aug2024 07:33:40.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8559462980699664
+[26Aug2024 07:33:40.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8549036072220133
+[26Aug2024 07:33:40.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8541747560007025
+[26Aug2024 07:33:40.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.8477481318830087
+[26Aug2024 07:33:40.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.794438789517244
+[26Aug2024 07:33:40.833] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.6553796158646037
+[26Aug2024 07:33:40.881] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.5485624344403277
+[26Aug2024 07:33:40.921] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.4904894126275394
+[26Aug2024 07:33:40.956] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.4575770416852265
+[26Aug2024 07:33:41.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.439010774285407
+[26Aug2024 07:33:41.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.39171725129608603
+[26Aug2024 07:33:41.133] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.3415629198248098
+[26Aug2024 07:33:41.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.28512890385104583
+[26Aug2024 07:33:43.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.2873114421181526
+[26Aug2024 07:34:18.049] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[26Aug2024 07:35:28.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Gave 64 [Arrow] to somebody_just]
+[26Aug2024 07:36:40.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Gave 16 [Golden Apple] to somebody_just]
+[26Aug2024 07:37:29.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was sniped by Archer
+[26Aug2024 07:39:11.048] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
+[26Aug2024 07:39:11.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
+[26Aug2024 07:39:45.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made somebody_just no longer a server operator
+[26Aug2024 07:39:48.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Aug2024 07:39:48.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Aug2024 07:39:48.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Aug2024 07:39:48.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Aug2024 07:39:48.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Aug2024 07:39:54.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Aug2024 07:39:54.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Aug2024 07:39:54.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Aug2024 07:39:54.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Aug2024 07:39:54.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Aug2024 07:39:54.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Aug2024 07:39:57.595] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
