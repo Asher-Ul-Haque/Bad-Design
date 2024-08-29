@@ -8,7 +8,7 @@ handle_error() {
 
 # Update the local repository
 echo "Updating the local repository..."
-# git pull origin main || handle_error "Failed to pull from GitHub."
+git pull origin main || handle_error "Failed to pull from GitHub."
 
 # Start the Minecraft server
 echo "Starting Minecraft server..."
