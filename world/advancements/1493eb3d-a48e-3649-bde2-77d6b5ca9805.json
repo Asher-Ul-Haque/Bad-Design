@@ -20,11 +20,15 @@
       "minecraft:cherry_grove": "2024-05-11 20:04:09 +0530",
       "minecraft:sunflower_plains": "2024-09-11 11:56:37 +0530",
       "minecraft:wooded_badlands": "2024-08-18 21:18:31 +0530",
+      "minecraft:savanna_plateau": "2024-09-14 20:36:44 +0530",
       "minecraft:beach": "2024-05-11 19:11:08 +0530",
       "minecraft:mangrove_swamp": "2024-08-18 20:57:39 +0530",
       "minecraft:river": "2024-07-05 18:30:07 +0530",
+      "minecraft:lukewarm_ocean": "2024-09-14 20:34:56 +0530",
       "minecraft:snowy_plains": "2024-07-27 21:49:15 +0530",
       "minecraft:dripstone_caves": "2024-07-27 21:58:10 +0530",
+      "minecraft:swamp": "2024-09-14 20:47:09 +0530",
+      "minecraft:jagged_peaks": "2024-09-14 20:47:40 +0530",
       "minecraft:cold_ocean": "2024-05-11 19:11:17 +0530",
       "minecraft:lush_caves": "2024-07-08 19:07:20 +0530",
       "minecraft:deep_cold_ocean": "2024-05-14 16:55:45 +0530",
@@ -35,9 +39,12 @@
       "minecraft:ocean": "2024-09-11 11:56:42 +0530",
       "minecraft:snowy_beach": "2024-05-15 15:39:46 +0530",
       "minecraft:windswept_savanna": "2024-08-18 21:14:28 +0530",
+      "minecraft:deep_lukewarm_ocean": "2024-09-14 20:34:58 +0530",
       "minecraft:flower_forest": "2024-07-05 18:27:48 +0530",
       "minecraft:frozen_peaks": "2024-07-18 16:37:36 +0530",
       "minecraft:deep_dark": "2024-05-14 15:54:36 +0530",
+      "minecraft:meadow": "2024-09-14 20:47:21 +0530",
+      "minecraft:savanna": "2024-09-14 20:35:24 +0530",
       "minecraft:plains": "2024-05-11 18:04:06 +0530"
     },
     "done": false
@@ -4219,15 +4226,27 @@
     },
     "done": true
   },
+  "dungeons_arise:find_bandit_village": {
+    "criteria": {
+      "location0": "2024-09-11 12:02:39 +0530"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/discover_magnetic_caves": {
     "criteria": {
       "discover": "2024-09-11 12:03:48 +0530"
     },
     "done": true
   },
-  "dungeons_arise:find_bandit_village": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
-      "location0": "2024-09-11 12:02:39 +0530"
+      "has_blue_orchid": "2024-09-14 20:57:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-09-14 21:06:08 +0530"
     },
     "done": true
   },
