@@ -20,9 +20,11 @@
       "minecraft:cherry_grove": "2024-05-11 20:04:09 +0530",
       "minecraft:sunflower_plains": "2024-09-11 11:56:37 +0530",
       "minecraft:wooded_badlands": "2024-08-18 21:18:31 +0530",
+      "minecraft:badlands": "2024-09-19 15:42:18 +0530",
       "minecraft:savanna_plateau": "2024-09-14 20:36:44 +0530",
       "minecraft:beach": "2024-05-11 19:11:08 +0530",
       "minecraft:mangrove_swamp": "2024-08-18 20:57:39 +0530",
+      "minecraft:sparse_jungle": "2024-09-19 15:20:43 +0530",
       "minecraft:river": "2024-07-05 18:30:07 +0530",
       "minecraft:lukewarm_ocean": "2024-09-14 20:34:56 +0530",
       "minecraft:snowy_plains": "2024-07-27 21:49:15 +0530",
@@ -3669,7 +3671,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2024-07-18 16:55:38 +0530"
+      "in_better_zombie_dungeon": "2024-07-18 16:55:38 +0530",
+      "in_better_spider_dungeon": "2024-09-19 15:23:35 +0530"
     },
     "done": false
   },
@@ -4247,6 +4250,108 @@
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_white_tulip": "2024-09-14 21:06:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2024-09-19 16:05:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-09-19 15:21:21 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-09-19 15:21:21 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-09-19 16:16:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2024-09-19 15:18:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-09-19 16:02:53 +0530"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-09-19 15:23:35 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "azure": "2024-09-19 16:17:04 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-09-19 16:02:53 +0530"
     },
     "done": true
   },

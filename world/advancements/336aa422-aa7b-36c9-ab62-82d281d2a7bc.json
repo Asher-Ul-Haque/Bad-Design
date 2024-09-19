@@ -36,8 +36,12 @@
       "minecraft:frozen_river": "2024-06-27 16:43:06 +0530",
       "minecraft:cherry_grove": "2024-06-24 07:13:09 +0530",
       "minecraft:sunflower_plains": "2024-06-30 19:08:34 +0530",
+      "minecraft:wooded_badlands": "2024-09-19 15:42:25 +0530",
+      "minecraft:badlands": "2024-09-19 15:42:18 +0530",
       "minecraft:savanna_plateau": "2024-06-16 17:45:33 +0530",
       "minecraft:beach": "2024-06-16 17:49:43 +0530",
+      "minecraft:mangrove_swamp": "2024-09-19 15:36:51 +0530",
+      "minecraft:sparse_jungle": "2024-09-19 15:21:00 +0530",
       "minecraft:river": "2024-06-11 08:34:15 +0530",
       "minecraft:lukewarm_ocean": "2024-07-09 21:33:12 +0530",
       "minecraft:snowy_plains": "2024-06-27 16:48:21 +0530",
@@ -5855,6 +5859,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2024-09-14 21:09:19 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2024-09-14 21:10:35 +0530"
@@ -5873,17 +5883,29 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
-    "criteria": {
-      "has_eye_armor_trim_smithing_template": "2024-09-14 21:09:19 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2024-09-14 21:10:35 +0530"
     },
     "done": true
+  },
+  "alexscaves:alexscaves/defeat_notor": {
+    "criteria": {
+      "killed": "2024-09-19 16:09:59 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_magnetic_caves": {
+    "criteria": {
+      "discover": "2024-09-19 16:10:28 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "azure": "2024-09-19 16:12:07 +0530"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
