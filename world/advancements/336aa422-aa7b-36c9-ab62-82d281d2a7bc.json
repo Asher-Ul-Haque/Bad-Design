@@ -33,6 +33,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-08-18 20:41:12 +0530",
       "minecraft:taiga": "2024-07-02 19:35:44 +0530",
+      "minecraft:deep_ocean": "2024-09-28 20:59:32 +0530",
       "minecraft:frozen_river": "2024-06-27 16:43:06 +0530",
       "minecraft:cherry_grove": "2024-06-24 07:13:09 +0530",
       "minecraft:sunflower_plains": "2024-06-30 19:08:34 +0530",
@@ -56,6 +57,7 @@
       "minecraft:frozen_ocean": "2024-07-10 21:28:55 +0530",
       "minecraft:ocean": "2024-06-16 17:46:46 +0530",
       "minecraft:snowy_beach": "2024-07-10 20:49:01 +0530",
+      "minecraft:deep_lukewarm_ocean": "2024-09-28 21:06:39 +0530",
       "minecraft:flower_forest": "2024-06-30 19:05:37 +0530",
       "minecraft:frozen_peaks": "2024-07-18 16:37:32 +0530",
       "minecraft:deep_dark": "2024-07-01 18:47:30 +0530",
@@ -141,7 +143,8 @@
       "minecraft:stray": "2024-07-18 16:41:33 +0530",
       "minecraft:vex": "2024-08-28 20:46:25 +0530",
       "minecraft:zombie": "2024-06-11 16:55:25 +0530",
-      "minecraft:drowned": "2024-07-31 10:13:26 +0530"
+      "minecraft:drowned": "2024-07-31 10:13:26 +0530",
+      "minecraft:zombie_villager": "2024-09-28 19:38:49 +0530"
     },
     "done": false
   },
@@ -613,6 +616,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2024-09-28 21:56:44 +0530",
       "minecraft:pig": "2024-06-27 11:45:14 +0530",
       "minecraft:sheep": "2024-06-10 08:52:29 +0530",
       "minecraft:cow": "2024-06-15 13:12:48 +0530",
@@ -5906,6 +5910,24 @@
       "azure": "2024-09-19 16:12:07 +0530"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-09-28 19:54:24 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/ride_nuclear_bomb": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2024-09-28 21:24:16 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2024-09-28 21:23:56 +0530"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

@@ -32,6 +32,7 @@
       "minecraft:swamp": "2024-09-14 20:47:09 +0530",
       "minecraft:jagged_peaks": "2024-09-14 20:47:40 +0530",
       "minecraft:cold_ocean": "2024-05-11 19:11:17 +0530",
+      "minecraft:forest": "2024-09-28 21:08:45 +0530",
       "minecraft:lush_caves": "2024-07-08 19:07:20 +0530",
       "minecraft:deep_cold_ocean": "2024-05-14 16:55:45 +0530",
       "minecraft:ice_spikes": "2024-05-15 00:27:02 +0530",
@@ -4406,6 +4407,18 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
     "criteria": {
       "has_oxidized_cut_copper_stairs": "2024-09-28 14:00:52 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2024-09-28 21:20:24 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2024-09-28 21:11:38 +0530"
     },
     "done": true
   },
