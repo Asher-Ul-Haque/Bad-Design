@@ -4410,15 +4410,15 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/nuclear_bomb": {
-    "criteria": {
-      "nuclear_bomb": "2024-09-28 21:20:24 +0530"
-    },
-    "done": true
-  },
   "alexsmobs:alexsmobs/grizzly_bear": {
     "criteria": {
       "killed_by": "2024-09-28 21:11:38 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2024-09-28 21:20:24 +0530"
     },
     "done": true
   },

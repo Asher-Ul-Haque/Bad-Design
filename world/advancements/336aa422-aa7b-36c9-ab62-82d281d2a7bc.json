@@ -5917,15 +5917,15 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/ride_nuclear_bomb": {
-    "criteria": {
-      "ride_a_boat_with_a_goat": "2024-09-28 21:24:16 +0530"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/nuclear_bomb": {
     "criteria": {
       "nuclear_bomb": "2024-09-28 21:23:56 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/ride_nuclear_bomb": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2024-09-28 21:24:16 +0530"
     },
     "done": true
   },
