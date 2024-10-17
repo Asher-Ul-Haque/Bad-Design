@@ -423,6 +423,7 @@
       "baked_potato": "2024-05-11 20:22:34 +0530",
       "porkchop": "2024-05-11 19:24:28 +0530",
       "apple": "2024-05-11 18:35:14 +0530",
+      "spider_eye": "2024-10-17 18:50:33 +0530",
       "potato": "2024-07-27 21:46:48 +0530",
       "cooked_cod": "2024-05-19 23:52:11 +0530",
       "pumpkin_pie": "2024-05-11 20:03:38 +0530",
@@ -4449,6 +4450,36 @@
   "farmersdelight:recipes/food/grilled_salmon": {
     "criteria": {
       "has_salmon": "2024-10-09 11:29:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-10-17 18:51:51 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed_by": "2024-10-17 18:53:43 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "smoked_ham": "2024-10-17 18:54:02 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2024-10-17 19:55:52 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_glazed_ham_block": {
+    "criteria": {
+      "has_smoked_ham": "2024-10-17 18:54:02 +0530"
     },
     "done": true
   },
