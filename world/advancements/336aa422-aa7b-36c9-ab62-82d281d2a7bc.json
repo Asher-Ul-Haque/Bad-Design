@@ -57,6 +57,7 @@
       "minecraft:frozen_ocean": "2024-07-10 21:28:55 +0530",
       "minecraft:ocean": "2024-06-16 17:46:46 +0530",
       "minecraft:snowy_beach": "2024-07-10 20:49:01 +0530",
+      "minecraft:windswept_savanna": "2024-10-25 10:02:35 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-09-28 21:06:39 +0530",
       "minecraft:flower_forest": "2024-06-30 19:05:37 +0530",
       "minecraft:frozen_peaks": "2024-07-18 16:37:32 +0530",
@@ -6007,6 +6008,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-10-17 19:28:11 +0530"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2024-10-17 19:42:40 +0530"
@@ -6019,9 +6026,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
+  "alexsmobs:alexsmobs/rattlesnake": {
     "criteria": {
-      "has_pointed_dripstone": "2024-10-17 19:28:11 +0530"
+      "killed": "2024-10-25 10:00:06 +0530"
     },
     "done": true
   },
