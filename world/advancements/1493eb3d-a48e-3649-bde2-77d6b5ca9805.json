@@ -20,6 +20,7 @@
       "minecraft:cherry_grove": "2024-05-11 20:04:09 +0530",
       "minecraft:sunflower_plains": "2024-09-11 11:56:37 +0530",
       "minecraft:wooded_badlands": "2024-08-18 21:18:31 +0530",
+      "minecraft:bamboo_jungle": "2024-11-04 08:28:55 +0530",
       "minecraft:badlands": "2024-09-19 15:42:18 +0530",
       "minecraft:savanna_plateau": "2024-09-14 20:36:44 +0530",
       "minecraft:beach": "2024-05-11 19:11:08 +0530",
@@ -432,6 +433,7 @@
       "golden_apple": "2024-07-27 21:05:07 +0530",
       "rotten_flesh": "2024-05-11 18:24:06 +0530",
       "glow_berries": "2024-05-15 16:57:04 +0530",
+      "melon_slice": "2024-11-04 08:31:46 +0530",
       "cooked_chicken": "2024-05-11 20:12:20 +0530",
       "cooked_salmon": "2024-05-19 22:38:38 +0530",
       "carrot": "2024-05-11 19:58:03 +0530"
@@ -4471,15 +4473,39 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/honey_glazed_ham_block": {
+    "criteria": {
+      "has_smoked_ham": "2024-10-17 18:54:02 +0530"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/kangaroo": {
     "criteria": {
       "killed_by": "2024-10-17 19:55:52 +0530"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/honey_glazed_ham_block": {
+  "takesapillage:bastille": {
     "criteria": {
-      "has_smoked_ham": "2024-10-17 18:54:02 +0530"
+      "in_bastille": "2024-11-04 07:59:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-11-04 08:29:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-11-04 08:29:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-11-04 08:29:35 +0530"
     },
     "done": true
   },
