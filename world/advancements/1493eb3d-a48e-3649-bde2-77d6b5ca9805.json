@@ -39,6 +39,7 @@
       "minecraft:ice_spikes": "2024-05-15 00:27:02 +0530",
       "minecraft:frozen_ocean": "2024-05-15 15:37:55 +0530",
       "minecraft:desert": "2024-08-18 21:15:09 +0530",
+      "minecraft:windswept_forest": "2024-11-06 09:02:20 +0530",
       "minecraft:jungle": "2024-08-18 21:25:43 +0530",
       "minecraft:ocean": "2024-09-11 11:56:42 +0530",
       "minecraft:snowy_beach": "2024-05-15 15:39:46 +0530",
@@ -4506,6 +4507,12 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2024-11-04 08:29:35 +0530"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2024-11-06 09:06:16 +0530"
     },
     "done": true
   },

@@ -1,40 +1,40 @@
-[04Nov2024 08:02:31.103] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[04Nov2024 08:02:31.114] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[04Nov2024 08:02:32.205] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Nov2024 08:02:32.281] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Nov2024 08:02:32.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[04Nov2024 08:02:32.861] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[04Nov2024 08:02:32.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[04Nov2024 08:02:32.952] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[04Nov2024 08:02:33.270] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[04Nov2024 08:02:35.186] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Nov2024 08:02:35.342] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[04Nov2024 08:02:35.345] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[04Nov2024 08:02:35.367] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Nov2024 08:02:35.368] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Nov2024 08:02:35.397] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Nov2024 08:02:36.226] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[04Nov2024 08:02:36.228] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[04Nov2024 08:02:36.228] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[04Nov2024 08:02:36.231] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[04Nov2024 08:02:36.232] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[04Nov2024 08:02:36.233] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[04Nov2024 08:02:36.234] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[04Nov2024 08:02:36.234] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[04Nov2024 08:02:44.299] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[04Nov2024 08:02:44.300] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[04Nov2024 08:02:47.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[04Nov2024 08:02:48.093] [main/INFO] [journeymap/]: Initializing Packet Registries
-[04Nov2024 08:02:48.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
-[04Nov2024 08:02:48.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Nov2024 08:02:49.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[04Nov2024 08:02:49.590] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Nov2024 08:02:50.786] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
-[04Nov2024 08:02:50.787] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
-[04Nov2024 08:02:50.836] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[04Nov2024 08:02:50.836] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[04Nov2024 08:02:53.319] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[04Nov2024 08:02:53.937] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[06Nov2024 08:52:32.870] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[06Nov2024 08:52:32.879] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[06Nov2024 08:52:33.790] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Nov2024 08:52:33.860] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Nov2024 08:52:34.204] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[06Nov2024 08:52:34.272] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[06Nov2024 08:52:34.312] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[06Nov2024 08:52:34.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[06Nov2024 08:52:34.501] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[06Nov2024 08:52:35.896] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Nov2024 08:52:36.006] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[06Nov2024 08:52:36.007] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[06Nov2024 08:52:36.026] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Nov2024 08:52:36.027] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Nov2024 08:52:36.049] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Nov2024 08:52:36.632] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[06Nov2024 08:52:36.633] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[06Nov2024 08:52:36.633] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[06Nov2024 08:52:36.641] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[06Nov2024 08:52:36.641] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[06Nov2024 08:52:36.642] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[06Nov2024 08:52:36.642] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[06Nov2024 08:52:36.643] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[06Nov2024 08:52:43.289] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[06Nov2024 08:52:43.289] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[06Nov2024 08:52:46.129] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[06Nov2024 08:52:46.404] [main/INFO] [journeymap/]: Initializing Packet Registries
+[06Nov2024 08:52:47.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
+[06Nov2024 08:52:47.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Nov2024 08:52:47.570] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Nov2024 08:52:48.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[06Nov2024 08:52:48.498] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/assets/.mcassetsroot' uses unexpected schema
+[06Nov2024 08:52:48.499] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23161!/data/.mcassetsroot' uses unexpected schema
+[06Nov2024 08:52:48.541] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[06Nov2024 08:52:48.541] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[06Nov2024 08:52:50.125] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[06Nov2024 08:52:50.666] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23161!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -70,163 +70,161 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[04Nov2024 08:02:53.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[04Nov2024 08:02:54.055] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
-[04Nov2024 08:02:54.062] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
-[04Nov2024 08:02:55.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Nov2024 08:02:55.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Nov2024 08:02:55.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Nov2024 08:02:55.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Nov2024 08:02:55.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Nov2024 08:02:55.663] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[04Nov2024 08:02:55.815] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Nov2024 08:02:55.816] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Nov2024 08:02:55.816] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Nov2024 08:02:55.816] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Nov2024 08:02:55.856] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[04Nov2024 08:02:55.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Nov2024 08:02:59.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Nov2024 08:03:02.692] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.766] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.777] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.794] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.808] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.821] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.828] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:02.839] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:03.224] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:03.662] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:04.369] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:04.661] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Nov2024 08:03:05.160] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
-[04Nov2024 08:03:05.608] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6449 ms
-[04Nov2024 08:03:05.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.758s)! For help, type "help"
-[04Nov2024 08:03:05.630] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: sendto
-[04Nov2024 08:03:05.646] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Nov2024 08:03:09.565] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:57716] logged in with entity id 16 at (-533.1829092878733, 134.1436967593396, 1876.4404732856262)
-[04Nov2024 08:03:09.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
-[04Nov2024 08:03:20.056] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.145.235.239:57724] logged in with entity id 125 at (1630.0349907028215, 120.9886837586328, 4911.158945139173)
-[04Nov2024 08:03:20.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
-[04Nov2024 08:03:39.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
-[04Nov2024 08:03:40.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:05:02.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set WhiteR9se's game mode to Survival Mode]
-[04Nov2024 08:05:06.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set WhiteR9se's game mode to Spectator Mode]
-[04Nov2024 08:07:34.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
-[04Nov2024 08:09:17.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by somebody_just
-[04Nov2024 08:09:46.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:09:46.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -2.1410222587657017,1.2491870787446828,27.99907121811293
-[04Nov2024 08:09:46.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -2.1410222587657017,1.2491870787446828,27.99907121811293
-[04Nov2024 08:09:46.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -2.1410222587657017,1.2491870787446828,27.99907121811293
-[04Nov2024 08:10:18.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by somebody_just
-[04Nov2024 08:10:58.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was shot by WhiteR9se
-[04Nov2024 08:11:12.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:14:23.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the weather to rain & thunder]
-[04Nov2024 08:15:16.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by WhiteR9se
-[04Nov2024 08:15:22.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:15:53.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.39059880677086767
-[04Nov2024 08:15:53.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 0.9143295038975339
-[04Nov2024 08:15:53.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of somebody_just) moved wrongly! 1.480715743793553
-[04Nov2024 08:16:08.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the weather to clear]
-[04Nov2024 08:18:00.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 13 entities]
-[04Nov2024 08:18:50.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by somebody_just
-[04Nov2024 08:19:23.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> good night
-[04Nov2024 08:19:25.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> good mornning
-[04Nov2024 08:22:21.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by WhiteR9se
-[04Nov2024 08:22:30.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:22:51.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Made somebody_just no longer a server operator]
-[04Nov2024 08:23:02.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hello
-[04Nov2024 08:23:19.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] Asher, you lied to me.
-[04Nov2024 08:23:45.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Made WhiteR9se no longer a server operator]
-[04Nov2024 08:27:00.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made somebody_just a server operator
-[04Nov2024 08:27:06.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Spectator Mode]
-[04Nov2024 08:27:28.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by Crocodile
-[04Nov2024 08:27:40.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to 4500.500000, 3400.000000, -233.500000]
-[04Nov2024 08:27:40.972] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12181ms or 243 ticks behind
-[04Nov2024 08:27:50.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> tp me
-[04Nov2024 08:27:53.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> tp meeeeeee
-[04Nov2024 08:28:17.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
-[04Nov2024 08:28:28.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Spectator Mode]
-[04Nov2024 08:28:37.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to 4500.521422, 100.000000, -238.905473]
-[04Nov2024 08:28:51.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 1000]
-[04Nov2024 08:28:55.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:28:57.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
-[04Nov2024 08:29:01.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Made somebody_just no longer a server operator]
-[04Nov2024 08:29:01.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing changed. The player is not an operator
-[04Nov2024 08:34:04.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set WhiteR9se's game mode to Spectator Mode
-[04Nov2024 08:34:15.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made WhiteR9se a server operator
-[04Nov2024 08:34:21.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:34:21.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -22.435602091055443,-30.0,15.882794539163584
-[04Nov2024 08:34:21.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -22.435602091055443,-30.0,15.882794539163584
-[04Nov2024 08:34:21.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -22.435602091055443,-30.0,15.882794539163584
-[04Nov2024 08:34:21.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -22.435602091055443,-30.0,15.882794539163584
-[04Nov2024 08:34:26.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by Tiger
-[04Nov2024 08:34:37.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:35:05.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:35:22.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
-[04Nov2024 08:36:05.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was shot by Pillager
-[04Nov2024 08:36:22.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
-[04Nov2024 08:36:26.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:38:37.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by WhiteR9se
-[04Nov2024 08:38:52.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:39:49.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Killed 149 entities]
-[04Nov2024 08:41:15.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by Zombie
-[04Nov2024 08:41:22.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:41:22.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5243.708169303457,29.0,-2032.1965742391612
-[04Nov2024 08:41:22.831] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5243.708169303457,29.0,-2032.1965742391612
-[04Nov2024 08:42:54.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was blown up by Creeper
-[04Nov2024 08:43:50.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:44:47.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
-[04Nov2024 08:44:53.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 13000]
-[04Nov2024 08:45:18.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was shot by Skeleton
-[04Nov2024 08:45:19.546] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -5221.216556244247,-16.0,2022.9012276819014
-[04Nov2024 08:45:25.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:45:25.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5227.023215061455,18.0,-2012.6004419536262
-[04Nov2024 08:45:25.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5227.023215061455,18.0,-2012.6004419536262
-[04Nov2024 08:45:25.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5227.023215061455,18.0,-2012.6004419536262
-[04Nov2024 08:45:25.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5227.023215061455,18.0,-2012.6004419536262
-[04Nov2024 08:47:32.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> rishit is 28 batch ka ek banda
-[04Nov2024 08:47:46.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> IS VINISHA OUR COLLEGE
-[04Nov2024 08:47:49.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> no
-[04Nov2024 08:47:51.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> he is our college
-[04Nov2024 08:47:54.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> ex of vineesha
-[04Nov2024 08:47:59.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> and very bad one at that
-[04Nov2024 08:48:02.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> vineesha is du
-[04Nov2024 08:48:11.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> avg girlfrien
-[04Nov2024 08:50:09.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by Spider
-[04Nov2024 08:50:10.554] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -5223.269229358173,-24.0,1973.0800679021768
-[04Nov2024 08:50:16.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:50:16.506] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5219.891711698097,16.162141421027002,-2009.6959300614496
-[04Nov2024 08:50:16.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5219.891711698097,16.162141421027002,-2009.6959300614496
-[04Nov2024 08:50:16.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5219.891711698097,16.162141421027002,-2009.6959300614496
-[04Nov2024 08:50:16.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5219.891711698097,16.162141421027002,-2009.6959300614496
-[04Nov2024 08:51:24.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was shot by Skeleton
-[04Nov2024 08:51:26.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -5245.199999988079,-33.0,2013.199999988079
-[04Nov2024 08:51:36.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[04Nov2024 08:51:36.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5228.005897024993,20.176759275064242,-2032.9200936109225
-[04Nov2024 08:51:36.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5228.005897024993,20.176759275064242,-2032.9200936109225
-[04Nov2024 08:51:36.238] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 5228.005897024993,20.176759275064242,-2032.9200936109225
-[04Nov2024 08:51:53.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Spectator Mode]
-[04Nov2024 08:52:35.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just fell from a high place
-[04Nov2024 08:53:01.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:53:37.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
-[04Nov2024 08:53:47.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 13000]
-[04Nov2024 08:55:07.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by Clay Golem
-[04Nov2024 08:55:18.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
-[04Nov2024 08:59:38.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> teamwork
-[04Nov2024 09:02:12.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
-[04Nov2024 09:07:52.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
-[04Nov2024 09:07:52.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
-[04Nov2024 09:07:55.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
-[04Nov2024 09:07:55.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
-[04Nov2024 09:08:03.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04Nov2024 09:08:03.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Nov2024 09:08:03.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Nov2024 09:08:03.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Nov2024 09:08:03.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04Nov2024 09:08:03.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04Nov2024 09:08:03.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04Nov2024 09:08:03.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04Nov2024 09:08:03.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Nov2024 09:08:03.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Nov2024 09:08:03.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04Nov2024 09:08:03.307] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Nov2024 08:52:50.681] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[06Nov2024 08:52:50.780] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
+[06Nov2024 08:52:50.786] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+[06Nov2024 08:52:52.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Nov2024 08:52:52.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Nov2024 08:52:52.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Nov2024 08:52:52.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Nov2024 08:52:52.094] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Nov2024 08:52:52.114] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[06Nov2024 08:52:52.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Nov2024 08:52:52.312] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Nov2024 08:52:52.313] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Nov2024 08:52:52.313] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Nov2024 08:52:52.379] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Nov2024 08:52:52.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Nov2024 08:52:55.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Nov2024 08:52:57.835] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:57.836] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:57.851] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:57.862] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:57.874] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:58.060] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:59.224] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:59.225] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Nov2024 08:52:59.559] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[06Nov2024 08:52:59.970] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4412 ms
+[06Nov2024 08:52:59.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.612s)! For help, type "help"
+[06Nov2024 08:52:59.992] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: sendto
+[06Nov2024 08:53:00.005] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Nov2024 08:55:59.675] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:51500] logged in with entity id 16 at (933.8909605690917, 75.0, 3194.4685545263815)
+[06Nov2024 08:55:59.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
+[06Nov2024 08:57:24.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 83.19519864456333,-25.1234827166777,-58.77009357528095
+[06Nov2024 08:57:24.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 83.19519864456333,-25.1234827166777,-58.77009357528095
+[06Nov2024 08:57:24.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 83.19519864456333,-25.1234827166777,-58.77009357528095
+[06Nov2024 08:58:48.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1]
+[06Nov2024 08:59:55.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Spectator Mode]
+[06Nov2024 09:00:15.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 21.062487313325846,0.0,-15.145351431928248
+[06Nov2024 09:00:15.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 17.50011769857042,0.0,-12.687756676657045
+[06Nov2024 09:00:15.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 17.50011769857042,0.0,-12.687756676657045
+[06Nov2024 09:00:15.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 17.50011769857042,0.0,-12.687756676657045
+[06Nov2024 09:02:28.173] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/4347, l='ServerLevel[world]', x=1449.61, y=63.00, z=5393.55]
+[06Nov2024 09:02:50.876] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
+[06Nov2024 09:06:35.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[06Nov2024 09:07:09.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[06Nov2024 09:07:38.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Adventure Mode]
+[06Nov2024 09:07:42.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Spectator Mode]
+[06Nov2024 09:08:39.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3623ms or 72 ticks behind
+[06Nov2024 09:08:48.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -3.6774475566928686,6.300000697369995,-9.391145203371252
+[06Nov2024 09:08:48.545] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -3.119119783198471,5.670000627632703,-7.9894849841703035
+[06Nov2024 09:10:32.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[06Nov2024 09:10:36.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was slain by Gearling
+[06Nov2024 09:13:25.706] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
+[06Nov2024 09:13:25.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
+[06Nov2024 09:13:33.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[06Nov2024 09:13:33.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pause<--[HERE]
+[06Nov2024 09:13:45.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[06Nov2024 09:13:45.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pause<--[HERE]
+[06Nov2024 09:13:47.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[06Nov2024 09:13:47.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sleep<--[HERE]
+[06Nov2024 09:13:50.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[06Nov2024 09:13:50.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[06Nov2024 09:13:50.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[06Nov2024 09:13:50.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[06Nov2024 09:13:50.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[06Nov2024 09:13:50.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[06Nov2024 09:13:50.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[06Nov2024 09:13:50.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[06Nov2024 09:13:50.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[06Nov2024 09:13:50.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[06Nov2024 09:13:50.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[06Nov2024 09:13:50.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[06Nov2024 09:13:50.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[06Nov2024 09:13:50.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[06Nov2024 09:13:50.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[06Nov2024 09:13:50.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[06Nov2024 09:13:50.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[06Nov2024 09:13:50.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[06Nov2024 09:13:50.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[06Nov2024 09:13:50.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[06Nov2024 09:13:50.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[06Nov2024 09:13:50.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[06Nov2024 09:13:50.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doSeasonCycle|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[06Nov2024 09:13:50.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[06Nov2024 09:13:50.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[06Nov2024 09:13:50.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[06Nov2024 09:13:50.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[06Nov2024 09:13:50.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[06Nov2024 09:13:50.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[06Nov2024 09:13:50.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[06Nov2024 09:13:50.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[06Nov2024 09:13:50.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[06Nov2024 09:13:50.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[06Nov2024 09:13:50.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[06Nov2024 09:13:50.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[06Nov2024 09:13:50.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[06Nov2024 09:13:50.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[06Nov2024 09:13:50.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[06Nov2024 09:13:50.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[06Nov2024 09:13:50.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[06Nov2024 09:13:50.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[06Nov2024 09:13:50.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[06Nov2024 09:13:50.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[06Nov2024 09:13:50.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[06Nov2024 09:13:50.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[06Nov2024 09:13:50.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[06Nov2024 09:13:50.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[06Nov2024 09:13:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[06Nov2024 09:13:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[06Nov2024 09:13:50.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[06Nov2024 09:13:50.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[06Nov2024 09:13:50.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[06Nov2024 09:13:50.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[06Nov2024 09:13:50.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[06Nov2024 09:13:50.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[06Nov2024 09:13:50.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[06Nov2024 09:13:50.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[06Nov2024 09:13:50.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[06Nov2024 09:13:50.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[06Nov2024 09:13:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[06Nov2024 09:13:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[06Nov2024 09:13:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[06Nov2024 09:13:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[06Nov2024 09:13:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[06Nov2024 09:13:50.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[06Nov2024 09:13:50.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[06Nov2024 09:13:50.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[06Nov2024 09:13:50.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[06Nov2024 09:13:50.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[06Nov2024 09:13:50.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[06Nov2024 09:13:50.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[06Nov2024 09:13:50.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[06Nov2024 09:13:50.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[06Nov2024 09:13:50.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[06Nov2024 09:13:50.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /season (set|get)
+[06Nov2024 09:13:50.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[06Nov2024 09:13:50.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[06Nov2024 09:13:50.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /end_island reset [<forceNewPortalPos>]
+[06Nov2024 09:13:50.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waypoint (create|delete)
+[06Nov2024 09:13:50.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /wp -> waypoint
+[06Nov2024 09:22:33.500] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 455514ms or 9110 ticks behind
+[06Nov2024 09:23:29.650] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@349c0563[id=<null>,name=WhiteR9se,properties={},legacy=false] (/127.0.0.1:52121) lost connection: Disconnected
+[06Nov2024 09:23:33.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06Nov2024 09:23:33.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Nov2024 09:23:33.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Nov2024 09:23:33.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Nov2024 09:23:33.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06Nov2024 09:23:34.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06Nov2024 09:23:34.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06Nov2024 09:23:34.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Nov2024 09:23:34.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Nov2024 09:23:34.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Nov2024 09:23:34.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Nov2024 09:23:34.122] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
