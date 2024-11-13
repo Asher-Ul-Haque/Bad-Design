@@ -44,6 +44,7 @@
       "minecraft:ocean": "2024-09-11 11:56:42 +0530",
       "minecraft:snowy_beach": "2024-05-15 15:39:46 +0530",
       "minecraft:windswept_savanna": "2024-08-18 21:14:28 +0530",
+      "minecraft:warm_ocean": "2024-11-13 15:30:09 +0530",
       "minecraft:deep_lukewarm_ocean": "2024-09-14 20:34:58 +0530",
       "minecraft:flower_forest": "2024-07-05 18:27:48 +0530",
       "minecraft:frozen_peaks": "2024-07-18 16:37:36 +0530",
@@ -4513,6 +4514,18 @@
   "dungeons_arise:find_wishing_well": {
     "criteria": {
       "location0": "2024-11-06 09:06:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-11-13 15:34:38 +0530"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2024-11-13 20:38:54 +0530"
     },
     "done": true
   },
