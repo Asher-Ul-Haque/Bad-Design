@@ -1,47 +1,47 @@
-[16Nov2024 12:12:37.302] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[16Nov2024 12:12:37.307] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[16Nov2024 12:12:37.654] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[16Nov2024 12:12:37.716] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[16Nov2024 12:12:38.036] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[16Nov2024 12:12:38.039] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Nov2024 12:12:38.042] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Nov2024 12:12:38.044] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Nov2024 12:12:38.174] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[16Nov2024 12:12:39.495] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Nov2024 12:12:39.604] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[16Nov2024 12:12:39.606] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[16Nov2024 12:12:39.624] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Nov2024 12:12:39.625] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Nov2024 12:12:39.652] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Nov2024 12:12:40.233] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[16Nov2024 12:12:40.234] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[16Nov2024 12:12:40.234] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[16Nov2024 12:12:40.236] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[16Nov2024 12:12:40.236] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[16Nov2024 12:12:40.237] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[16Nov2024 12:12:40.238] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[16Nov2024 12:12:40.238] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[16Nov2024 12:12:46.078] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[16Nov2024 12:12:46.079] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[16Nov2024 12:12:48.240] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[16Nov2024 12:12:48.377] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[16Nov2024 12:12:48.384] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[16Nov2024 12:12:48.385] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[16Nov2024 12:12:48.385] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[16Nov2024 12:12:48.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[16Nov2024 12:12:48.872] [main/INFO] [journeymap/]: Initializing Packet Registries
-[16Nov2024 12:12:49.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.25 Target: null
-[16Nov2024 12:12:49.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[16Nov2024 12:12:49.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
-[16Nov2024 12:12:49.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[16Nov2024 12:12:50.215] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16Nov2024 12:12:50.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[16Nov2024 12:12:51.200] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
-[16Nov2024 12:12:51.201] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
-[16Nov2024 12:12:51.244] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[16Nov2024 12:12:51.244] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[16Nov2024 12:12:52.882] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[16Nov2024 12:12:53.431] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[16Nov2024 12:24:21.758] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[16Nov2024 12:24:21.764] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16Nov2024 12:24:22.157] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Nov2024 12:24:22.222] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[16Nov2024 12:24:22.591] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[16Nov2024 12:24:22.594] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Nov2024 12:24:22.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Nov2024 12:24:22.599] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Nov2024 12:24:22.735] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[16Nov2024 12:24:24.258] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Nov2024 12:24:24.372] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[16Nov2024 12:24:24.374] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Nov2024 12:24:24.390] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Nov2024 12:24:24.391] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Nov2024 12:24:24.411] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Nov2024 12:24:25.038] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[16Nov2024 12:24:25.039] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[16Nov2024 12:24:25.040] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[16Nov2024 12:24:25.041] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[16Nov2024 12:24:25.042] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[16Nov2024 12:24:25.042] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[16Nov2024 12:24:25.043] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[16Nov2024 12:24:25.044] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[16Nov2024 12:24:31.669] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[16Nov2024 12:24:31.670] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[16Nov2024 12:24:34.484] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[16Nov2024 12:24:34.601] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[16Nov2024 12:24:34.620] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[16Nov2024 12:24:34.621] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[16Nov2024 12:24:34.621] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[16Nov2024 12:24:34.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[16Nov2024 12:24:35.108] [main/INFO] [journeymap/]: Initializing Packet Registries
+[16Nov2024 12:24:35.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.25 Target: null
+[16Nov2024 12:24:35.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[16Nov2024 12:24:36.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
+[16Nov2024 12:24:36.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Nov2024 12:24:36.475] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Nov2024 12:24:36.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[16Nov2024 12:24:37.563] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
+[16Nov2024 12:24:37.564] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
+[16Nov2024 12:24:37.622] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[16Nov2024 12:24:37.623] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[16Nov2024 12:24:39.711] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[16Nov2024 12:24:40.315] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -77,63 +77,880 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[16Nov2024 12:12:53.444] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[16Nov2024 12:12:53.536] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
-[16Nov2024 12:12:53.542] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
-[16Nov2024 12:12:54.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[16Nov2024 12:12:54.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[16Nov2024 12:12:54.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[16Nov2024 12:12:54.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Nov2024 12:12:54.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[16Nov2024 12:12:54.922] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[16Nov2024 12:12:55.117] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16Nov2024 12:12:55.118] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[16Nov2024 12:12:55.118] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16Nov2024 12:12:55.119] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[16Nov2024 12:12:55.156] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[16Nov2024 12:12:55.309] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[16Nov2024 12:12:58.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Nov2024 12:13:01.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.158] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.172] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.186] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.204] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.219] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.637] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:01.793] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:02.291] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Nov2024 12:13:02.791] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[16Nov2024 12:13:02.906] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4615 ms
-[16Nov2024 12:13:02.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.758s)! For help, type "help"
-[16Nov2024 12:13:02.938] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[16Nov2024 12:13:02.980] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[16Nov2024 12:13:02.995] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
-[16Nov2024 12:14:49.006] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:51676] logged in with entity id 125 at (-717.6431955892672, 78.0, 2079.594115098734)
-[16Nov2024 12:14:49.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
-[16Nov2024 12:14:49.859] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
-[16Nov2024 12:14:49.863] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[16Nov2024 12:14:51.447] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[16Nov2024 12:14:52.445] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[16Nov2024 12:14:52.452] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[16Nov2024 12:15:19.214] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.46.11.204:51693] logged in with entity id 220 at (-714.7903841498422, 78.0, 2079.003414433383)
-[16Nov2024 12:15:19.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
-[16Nov2024 12:15:20.210] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
-[16Nov2024 12:15:20.212] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
-[16Nov2024 12:16:01.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
-[16Nov2024 12:16:01.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
-[16Nov2024 12:16:01.808] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
-[16Nov2024 12:16:05.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
-[16Nov2024 12:16:05.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
-[16Nov2024 12:16:05.203] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
-[16Nov2024 12:20:18.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[16Nov2024 12:20:18.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Nov2024 12:20:18.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Nov2024 12:20:18.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Nov2024 12:20:18.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16Nov2024 12:20:18.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16Nov2024 12:20:18.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16Nov2024 12:20:18.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16Nov2024 12:20:18.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Nov2024 12:20:18.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Nov2024 12:20:18.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16Nov2024 12:20:18.710] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[16Nov2024 12:24:40.329] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[16Nov2024 12:24:40.436] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
+[16Nov2024 12:24:40.443] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+[16Nov2024 12:24:41.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[16Nov2024 12:24:41.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Nov2024 12:24:41.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Nov2024 12:24:41.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Nov2024 12:24:41.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Nov2024 12:24:41.948] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[16Nov2024 12:24:42.179] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16Nov2024 12:24:42.181] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[16Nov2024 12:24:42.182] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16Nov2024 12:24:42.182] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[16Nov2024 12:24:42.226] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[16Nov2024 12:24:42.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Nov2024 12:24:45.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Nov2024 12:24:49.669] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.725] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.758] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.788] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.817] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.837] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.867] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.895] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:49.913] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:50.009] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:50.425] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:51.057] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Nov2024 12:24:51.423] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[16Nov2024 12:24:51.771] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6349 ms
+[16Nov2024 12:24:51.771] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.556s)! For help, type "help"
+[16Nov2024 12:24:51.798] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Nov2024 12:24:51.840] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[16Nov2024 12:24:51.855] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'robert-manuals.gl.at.ply.gg'
+[16Nov2024 12:24:51.856] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1565
+[16Nov2024 12:26:51.125] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.46.11.204:52150] logged in with entity id 131 at (-715.6210754000549, 78.0, 2080.430825149197)
+[16Nov2024 12:26:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
+[16Nov2024 12:26:52.052] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
+[16Nov2024 12:26:52.056] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
+[16Nov2024 12:26:55.497] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:26:57.094] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:26:57.101] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player somebody_just (336aa422-aa7b-36c9-ab62-82d281d2a7bc) successfully connected to voice chat
+[16Nov2024 12:27:08.501] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:52190] logged in with entity id 190 at (-718.0174836927645, 78.0, 2081.7308013931247)
+[16Nov2024 12:27:08.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
+[16Nov2024 12:27:09.200] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
+[16Nov2024 12:27:09.201] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 12:27:10.888] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 12:27:11.895] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 12:27:11.896] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 12:28:41.764] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
+[16Nov2024 12:28:41.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
+[16Nov2024 12:28:41.769] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
+[16Nov2024 12:29:42.606] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.46.11.204:52269] logged in with entity id 826 at (-710.4695098919021, 76.0, 2176.6283326551375)
+[16Nov2024 12:29:42.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
+[16Nov2024 12:29:43.679] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
+[16Nov2024 12:29:43.680] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
+[16Nov2024 12:29:46.393] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:29:47.393] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:29:47.394] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player somebody_just (336aa422-aa7b-36c9-ab62-82d281d2a7bc) successfully connected to voice chat
+[16Nov2024 12:30:10.616] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/841, l='ServerLevel[world]', x=-572.41, y=82.50, z=2354.70] died, message: 'Butcher was slain by Tiger'
+[16Nov2024 12:31:43.263] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/1296, l='ServerLevel[world]', x=-584.19, y=80.00, z=2360.99] died, message: 'Butcher was slain by Tiger'
+[16Nov2024 12:31:44.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made WhiteR9se a server operator
+[16Nov2024 12:31:55.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made somebody_just a server operator
+[16Nov2024 12:32:06.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
+[16Nov2024 12:32:06.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
+[16Nov2024 12:32:06.415] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
+[16Nov2024 12:32:12.917] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
+[16Nov2024 12:32:12.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
+[16Nov2024 12:32:12.919] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
+[16Nov2024 12:33:07.300] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.46.11.204:52417] logged in with entity id 1520 at (-675.2181128014377, 77.0, 2224.9405153219955)
+[16Nov2024 12:33:07.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
+[16Nov2024 12:33:08.168] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
+[16Nov2024 12:33:08.169] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
+[16Nov2024 12:33:08.401] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:52428] logged in with entity id 1672 at (-718.9611283412912, 78.0, 2128.454441245194)
+[16Nov2024 12:33:08.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
+[16Nov2024 12:33:08.979] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
+[16Nov2024 12:33:08.980] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 12:33:10.638] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 12:33:11.269] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:33:11.641] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 12:33:11.643] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 12:33:12.270] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 12:33:12.270] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player somebody_just (336aa422-aa7b-36c9-ab62-82d281d2a7bc) successfully connected to voice chat
+[16Nov2024 12:33:26.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 12:33:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> come china gropu
+[16Nov2024 12:34:05.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[16Nov2024 12:34:23.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Creative Mode]
+[16Nov2024 12:34:40.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 12:36:29.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the weather to clear]
+[16Nov2024 12:36:29.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[16Nov2024 12:36:37.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set season to Early Summer]
+[16Nov2024 12:36:53.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 13:00:42.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 13:06:52.703] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:06:52.704] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:06:52.705] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:06:52.968] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:06:53.976] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:06:53.977] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:07:14.802] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:07:14.803] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:07:14.804] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:07:15.862] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:07:17.863] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:07:17.864] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:10:39.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 13:13:29.862] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:13:29.862] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:13:29.863] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:13:30.117] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:13:31.113] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:13:31.114] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:16:30.811] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:16:30.812] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:16:30.813] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:16:30.875] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:16:31.876] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:16:31.877] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:19:58.821] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:19:58.821] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:19:58.822] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:19:59.073] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:20:00.074] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:20:00.075] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:20:13.889] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:20:13.889] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:20:13.890] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:20:13.946] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:20:14.964] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:20:14.964] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:20:25.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 13:23:46.925] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 13:23:46.926] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 13:23:46.927] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 13:23:46.991] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:23:47.986] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 13:23:47.987] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 13:30:31.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 1000]
+[16Nov2024 13:34:23.496] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 336aa422-aa7b-36c9-ab62-82d281d2a7bc timed out
+[16Nov2024 13:34:23.497] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player somebody_just
+[16Nov2024 13:34:23.497] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
+[16Nov2024 13:34:32.963] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
+[16Nov2024 13:34:32.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
+[16Nov2024 13:34:32.965] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
+[16Nov2024 13:46:59.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 13:52:38.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 1 [Name Tag] to WhiteR9se]
+[16Nov2024 13:53:08.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 1 [Name Tag] to WhiteR9se]
+[16Nov2024 13:56:34.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.46.11.204:56044] logged in with entity id 21567 at (-773.9211063447316, 111.65719484823614, 2098.9197808795607)
+[16Nov2024 13:56:34.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
+[16Nov2024 13:56:35.253] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
+[16Nov2024 13:56:35.254] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
+[16Nov2024 13:56:38.361] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 13:56:38.683] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
+[16Nov2024 13:56:38.684] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player somebody_just (336aa422-aa7b-36c9-ab62-82d281d2a7bc) successfully connected to voice chat
+[16Nov2024 13:57:00.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> join china grp
+[16Nov2024 13:57:50.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 13:57:50.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -41.815203996725245,-68.76889158630544,17.038660737518057
+[16Nov2024 13:57:50.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -41.815203996725245,-68.76889158630544,17.038660737518057
+[16Nov2024 13:57:50.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -41.815203996725245,-68.76889158630544,17.038660737518057
+[16Nov2024 13:57:50.554] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -41.815203996725245,-68.76889158630544,17.038660737518057
+[16Nov2024 13:58:04.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 14:00:02.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved too quickly! -8.227028049475507,3.750000149011612,4.443624687400188
+[16Nov2024 14:02:39.460] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['skelly 1'/19574, l='ServerLevel[world]', x=-766.04, y=77.41, z=2188.43] died: skelly 1 burned to death
+[16Nov2024 14:02:46.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NushiPushi[/127.46.11.204:56401] logged in with entity id 23390 at (-717.5378111755589, 101.10093875770909, 2094.859976320042)
+[16Nov2024 14:02:46.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi joined the game
+[16Nov2024 14:03:05.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> not again
+[16Nov2024 14:03:14.439] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.287243786971999,-1.7405777654248595,-0.5963205728844514
+[16Nov2024 14:03:14.441] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.806126590035205,-1.8493638757639133,-1.0872573415258557
+[16Nov2024 14:03:14.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.290686425155172,-1.958149986102967,-1.6206147172379133
+[16Nov2024 14:03:14.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.744389649193408,-2.0669360964420207,-2.191858955095995
+[16Nov2024 14:03:14.444] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.168820881936426,-2.1757222067810744,-2.797269684080675
+[16Nov2024 14:03:14.444] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.560312724048003,-2.284508317120128,-3.4343110519207585
+[16Nov2024 14:03:14.445] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.8988862136016,-2.393294427459182,-4.0998540714526825
+[16Nov2024 14:03:16.790] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.32405723649822,-1.4142194344076984,-2.693220937767819
+[16Nov2024 14:03:18.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.552433746495694,5.221733296274579,17.773835356949803
+[16Nov2024 14:03:18.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -18.829121147651563,5.112947185935525,18.257894441306235
+[16Nov2024 14:03:18.920] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -24.99618148098773,5.983236068647955,15.319168236091173
+[16Nov2024 14:03:18.921] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -24.29291537480742,5.874449958308901,15.838247298629085
+[16Nov2024 14:03:18.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -23.599078171230985,5.765663847969847,16.372994104562167
+[16Nov2024 14:03:18.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -22.917297760879592,5.6568777376307935,16.924934214266614
+[16Nov2024 14:03:18.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -22.251733193898872,5.54809162729174,17.49647451917417
+[16Nov2024 14:03:18.924] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -21.61057514441768,5.439305516952686,18.091833512760786
+[16Nov2024 14:03:18.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -20.991404725479583,5.330519406613632,18.708556960267288
+[16Nov2024 14:03:18.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -20.391842876024953,5.221733296274579,19.344333228328196
+[16Nov2024 14:03:18.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.80976794933963,5.112947185935525,19.997100802249406
+[16Nov2024 14:03:18.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.243287860829355,5.004161075596471,20.665021223173426
+[16Nov2024 14:03:18.928] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -18.690715249404434,4.895374965257417,21.346454953443754
+[16Nov2024 14:03:18.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -18.150545326401698,4.786588854918364,22.03993985333682
+[16Nov2024 14:03:18.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -17.6214361212526,4.67780274457931,22.744171986609217
+[16Nov2024 14:03:18.930] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -17.102190864569707,4.569016634240256,23.4579885028852
+[16Nov2024 14:03:18.931] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -16.591742277382423,4.460230523901203,24.18035237217009
+[16Nov2024 14:03:18.931] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -16.089138560277433,4.351444413562149,24.91033877108839
+[16Nov2024 14:03:18.932] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -15.59353089851345,4.242658303223095,25.6471229421295
+[16Nov2024 14:03:18.932] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -15.104162319082434,4.133872192884041,26.389969366524383
+[16Nov2024 14:03:18.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -14.620357753436338,4.025086082544988,27.13822210861599
+[16Nov2024 14:03:18.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -14.141515175426548,3.916299972205934,27.891296204968512
+[16Nov2024 14:03:18.935] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -13.667097698118368,3.8075138618668802,28.64866998517482
+[16Nov2024 14:03:18.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -13.196626525729585,3.6987277515278265,29.40987822355237
+[16Nov2024 14:03:18.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.729674668169423,3.589941641188773,30.174506031825786
+[16Nov2024 14:03:18.973] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.265861335663885,3.481155530849719,30.942183412620125
+[16Nov2024 14:03:18.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.804846939882623,3.3723694205106653,31.712580402267122
+[16Nov2024 14:03:18.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.346328635944133,3.2635833101716116,32.48540273915842
+[16Nov2024 14:03:18.975] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.890036346775105,3.154797199832558,33.26038800078504
+[16Nov2024 14:03:18.976] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.43572921763473,3.046011089493504,34.03730215874566
+[16Nov2024 14:03:18.977] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.98319245425887,2.9372249791544505,34.815936506507114
+[16Nov2024 14:03:18.978] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.532012605507589,2.8284388688153967,35.595981972833215
+[16Nov2024 14:03:18.979] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.080254944280341,2.719652758476343,36.37626748106095
+[16Nov2024 14:03:18.979] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.622557157580104,2.6108666481372893,37.153358721191125
+[16Nov2024 14:03:18.980] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.153351643402402,2.5020805377982356,37.92304506949267
+[16Nov2024 14:03:18.981] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.669955182331705,2.393294427459182,38.68282938843822
+[16Nov2024 14:03:22.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.163065474351583,2.284508317120128,39.42252475269743
+[16Nov2024 14:03:22.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.624561948206065,2.1757222067810744,40.1283239647305
+[16Nov2024 14:03:22.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.052138942090437,2.0669360964420207,40.79100966874148
+[16Nov2024 14:03:22.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.446874041851515,1.958149986102967,41.406915117296194
+[16Nov2024 14:03:22.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.8123207395893814,1.8493638757639133,41.9811019328331
+[16Nov2024 14:03:22.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.15164803965024,1.7405777654248595,42.51808407037197
+[16Nov2024 14:03:22.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -3.467617864794647,1.6317916550858058,43.0216416489302
+[16Nov2024 14:03:22.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -2.760479929319672,1.523005544746752,43.48381942391052
+[16Nov2024 14:03:22.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -2.0319728043102714,1.4142194344076984,43.89117155911981
+[16Nov2024 14:03:22.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -1.2920255975041073,1.3054333240686447,44.216286514189505
+[16Nov2024 14:03:22.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -0.5519254796409996,1.196647213729591,44.44992550016832
+[16Nov2024 14:03:22.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 0.17466382232680644,1.0878611033905372,44.58636325131101
+[16Nov2024 14:03:22.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 0.8764869008449523,0.9790749930514835,44.62615987053914
+[16Nov2024 14:03:22.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 1.5520924313831301,0.8702888827124298,44.57719960636496
+[16Nov2024 14:03:22.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 2.2040902659171024,0.761502772373376,44.44895278235117
+[16Nov2024 14:03:22.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 2.8350347565477705,0.6527166620343223,44.249998202234565
+[16Nov2024 14:03:22.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 3.447203874544357,0.5439305516952686,43.98798644340832
+[16Nov2024 14:03:22.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.042629114743363,0.4351444413562149,43.6697402909881
+[16Nov2024 14:03:22.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -13.436972951962275,1.8493638757639133,-4.5934744242813395
+[16Nov2024 14:03:22.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.856479902413525,1.7405777654248595,-4.96187041035364
+[16Nov2024 14:03:22.531] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.289522498042516,1.6317916550858058,-5.3751178493989755
+[16Nov2024 14:03:22.531] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.734636182388954,1.523005544746752,-5.828363815358443
+[16Nov2024 14:03:22.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.190514863963926,1.4142194344076984,-6.317280468648278
+[16Nov2024 14:03:22.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.655993770343912,1.3054333240686447,-6.838008241815714
+[16Nov2024 14:03:22.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.130034157451746,1.196647213729591,-7.387105172507745
+[16Nov2024 14:03:22.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.611929123416417,1.0878611033905372,-7.961628987881795
+[16Nov2024 14:03:22.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.100828803007516,0.9790749930514835,-8.55882849966838
+[16Nov2024 14:03:22.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.59597528639074,0.8702888827124298,-9.176250198098842
+[16Nov2024 14:03:22.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.096692669556205,0.761502772373376,-9.811706043098184
+[16Nov2024 14:03:22.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.60237818129076,0.6527166620343223,-10.463244740471055
+[16Nov2024 14:03:22.536] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.112494270210846,0.5439305516952686,-11.129126126003484
+[16Nov2024 14:03:22.536] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.626561547978895,0.4351444413562149,-11.807798321206064
+[16Nov2024 14:03:22.537] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.144152496063157,0.32635833101716116,-12.49787736080043
+[16Nov2024 14:03:22.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.667801223990409,0.21757222067810744,-13.199749137587787
+[16Nov2024 14:03:22.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.2331984768756,0.10878611033905372,-13.923187913477705
+[16Nov2024 14:03:22.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.85758800666099,0.0,-14.66561707924302
+[16Nov2024 14:03:22.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.563360328389535,-0.10878611033905372,-15.416845169986118
+[16Nov2024 14:03:23.388] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.372543982028219,-0.21757222067810744,-16.153729855567235
+[16Nov2024 14:03:23.388] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.28266463163925,-0.32635833101716116,-16.867074457824856
+[16Nov2024 14:03:23.389] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.287480758797415,-0.4351444413562149,-17.552061504406993
+[16Nov2024 14:03:23.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.38031444027888,-0.5439305516952686,-18.20494375497219
+[16Nov2024 14:03:23.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.555547648162246,-0.6527166620343223,-18.819712361689426
+[16Nov2024 14:03:23.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.80761322625392,-0.761502772373376,-19.38864583150098
+[16Nov2024 14:03:23.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.130293639680417,-0.8702888827124298,-19.90069796211924
+[16Nov2024 14:03:23.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.515915280202876,-0.9790749930514835,-20.352021364968095
+[16Nov2024 14:03:23.393] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.953496837590592,-1.0878611033905372,-20.7257491609962
+[16Nov2024 14:03:25.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.437416250174124,-1.196647213729591,-21.03027719286729
+[16Nov2024 14:03:25.636] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.962659763212287,-1.3054333240686447,-21.195252211927254
+[16Nov2024 14:03:25.636] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.5247561100979965,-1.4142194344076984,-21.16648978569492
+[16Nov2024 14:03:25.637] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.119717815156037,-1.523005544746752,-21.11207702700949
+[16Nov2024 14:03:25.637] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.743988847476999,-1.6317916550858058,-21.034789301183082
+[16Nov2024 14:03:25.638] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.394397938604243,-1.7405777654248595,-20.937101679072384
+[16Nov2024 14:03:25.639] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.06811695124668,-1.8493638757639133,-20.821221428931267
+[16Nov2024 14:03:25.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.760723294213562,-1.958149986102967,-20.683531911352475
+[16Nov2024 14:03:25.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.467196339675297,-2.0669360964420207,-20.51929920663497
+[16Nov2024 14:03:25.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.185928138219083,-2.1757222067810744,-20.331165541608698
+[16Nov2024 14:03:25.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.914926150470706,-2.284508317120128,-20.1203275635105
+[16Nov2024 14:03:25.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -13.65307957237087,-2.295028364875918,-19.88924187843122
+[16Nov2024 14:03:25.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -14.401021979098005,-2.341127565773135,-19.643592083929207
+[16Nov2024 14:03:25.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -14.89460953245657,-2.4137909707123697,-19.48240991559942
+[16Nov2024 14:03:25.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -15.42832493253411,-2.501761732886706,-19.309420596072187
+[16Nov2024 14:03:25.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -15.99598683088243,-2.598553206765871,-19.120563732709343
+[16Nov2024 14:03:25.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -16.593081105691454,-2.700427527656757,-18.915403404513654
+[16Nov2024 14:03:25.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -17.213828605766025,-2.8052307883666856,-18.68984584813711
+[16Nov2024 14:03:25.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -17.853193524010635,-2.9117218213907847,-18.44130795963133
+[16Nov2024 14:03:25.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -18.49826869489152,-3.01918541635213,-18.156451420035637
+[16Nov2024 14:03:25.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.139164362764063,-3.1272094404151005,-17.82962672661006
+[16Nov2024 14:03:25.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -19.769808166778375,-3.2355564061498683,-17.45998508280809
+[16Nov2024 14:03:25.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -20.381490015270742,-3.344089463797218,-17.045626766167516
+[16Nov2024 14:03:25.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -20.972445639385796,-3.4527297550503704,-16.589282688055846
+[16Nov2024 14:03:27.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -21.54216541805272,-3.561431838597727,-16.094109372437288
+[16Nov2024 14:03:27.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -22.0896887293286,-3.670169529337386,-15.562803603820612
+[16Nov2024 14:03:27.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.408185021781492,1.414153643015922,-9.289784733453871
+[16Nov2024 14:03:27.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -4.440654712033847,-1.4142194299466269,9.638525790353924
+[16Nov2024 14:03:27.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.036443682360073,-1.5230055402824973,10.210191456907523
+[16Nov2024 14:03:27.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -5.653550583133665,-1.6317916506197179,10.767388566964655
+[16Nov2024 14:03:27.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.289668814828133,-1.7405777609577058,11.311682617966653
+[16Nov2024 14:03:27.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -6.942366179775377,-1.8493638712961484,11.845142641954226
+[16Nov2024 14:03:27.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.609468357696301,-1.9581499816348469,12.369610828555324
+[16Nov2024 14:03:27.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.288902892960778,-2.0669360919737017,12.886945967453812
+[16Nov2024 14:03:27.682] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.978942763951522,-2.1757222023126417,13.398582725730648
+[16Nov2024 14:03:30.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -7.93858700071894,-1.305433324055599,6.375514010759616
+[16Nov2024 14:03:30.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.654935430358364,-1.4142194343946386,6.8850005002309445
+[16Nov2024 14:03:30.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -9.368996766809914,-1.523005544733678,7.402175240456472
+[16Nov2024 14:03:30.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.071225655568696,-1.6317916550727318,7.936350923707323
+[16Nov2024 14:03:30.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -10.74719308768988,-1.7405777654117855,8.49717970198435
+[16Nov2024 14:03:30.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.383274809608452,-1.8493638757508393,9.089512368524538
+[16Nov2024 14:03:30.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -11.983786454143228,-1.8808089473423593,9.709940203427777
+[16Nov2024 14:03:30.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.549420497228766,-1.8808089473423593,10.356501512483646
+[16Nov2024 14:03:30.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -12.882177739213034,-1.9269081482395762,10.795727327861186
+[16Nov2024 14:03:30.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.277] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.278] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.278] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.278] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.279] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.280] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.039563411870745,1.414219417533559,-9.883947053702286
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.320] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:30.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.056002085136242,2.538203226310884,-15.424491706485696
+[16Nov2024 14:03:30.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.841943104717643,2.4502324641365476,-15.037935987056244
+[16Nov2024 14:03:30.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.6306105271658,2.3534409902573827,-14.597359768058595
+[16Nov2024 14:03:30.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.42751365352649,2.251566669366497,-14.10755213073844
+[16Nov2024 14:03:30.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.2368516311426,2.146763408656568,-13.573207135937992
+[16Nov2024 14:03:30.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.083851149618908,2.040272375632469,-13.000171265668996
+[16Nov2024 14:03:30.328] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.985558352023531,1.9328087806711238,-12.3988733278361
+[16Nov2024 14:03:30.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.936053868361341,1.8247847566081532,-11.772371277423645
+[16Nov2024 14:03:30.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.93193698113214,1.7164377908733854,-11.12420945464737
+[16Nov2024 14:03:30.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.968296753568325,1.6079047332260359,-10.456731446320191
+[16Nov2024 14:03:30.331] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.040985030990328,1.4992644419728833,-9.772131208362225
+[16Nov2024 14:03:33.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.14607107009249,1.3905623584255267,-9.07226136557938
+[16Nov2024 14:03:33.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.279818015037677,1.2818246676858678,-8.358670143681593
+[16Nov2024 14:03:33.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.439124756550314,1.173066458657317,-7.632842195536796
+[16Nov2024 14:03:33.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.445288127588015,2.5020965987625345,-15.015983294254056
+[16Nov2024 14:03:33.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.645] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.263659392210911,2.6108666312501185,-15.752933843169558
+[16Nov2024 14:03:33.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.45949013703978,2.502089785612384,-15.003757773958114
+[16Nov2024 14:03:33.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.659680754748933,2.393309013964924,-14.241033878072813
+[16Nov2024 14:03:33.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.83789130181151,2.2845259799935747,-13.462837204623156
+[16Nov2024 14:03:33.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.970410070176285,2.175741642380686,-12.674466903219582
+[16Nov2024 14:03:33.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 12.027471521224925,2.0669565535573753,-11.894792152245373
+[16Nov2024 14:03:33.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.997273771708365,1.9581710318565655,-11.144440029337147
+[16Nov2024 14:03:33.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.879204027412356,1.8493852607144277,-10.439253598636697
+[16Nov2024 14:03:33.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.682489661496106,1.7405993458342124,-9.775063546235288
+[16Nov2024 14:03:33.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.415640019997682,1.6318133481263573,-9.147434065054767
+[16Nov2024 14:03:33.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.086335433959562,1.5230273026899113,-8.552172772273934
+[16Nov2024 14:03:33.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.701333526775784,1.4142412297503313,-7.9857774307402
+[16Nov2024 14:03:33.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.266756485338647,1.3054551409623514,-7.444879704606592
+[16Nov2024 14:03:33.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.788154831660904,1.1966690430418936,-6.926248907614536
+[16Nov2024 14:03:33.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.270484485338102,1.087882939858929,-6.426996176932789
+[16Nov2024 14:03:33.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 8.71806808313454,0.97909683364351,-5.944789745406069
+[16Nov2024 14:03:33.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 17.580395565144727,3.8074919987802645,-13.433688039466688
+[16Nov2024 14:03:33.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 16.72245568155131,3.6987058884412107,-13.499395916148387
+[16Nov2024 14:03:33.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.44371344535,3.916278109119318,-13.311723199436074
+[16Nov2024 14:03:33.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 17.592085926505774,3.8074919987802645,-13.324290412901064
+[16Nov2024 14:03:33.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 16.74608777470712,3.6987058884412107,-13.289466781543524
+[16Nov2024 14:03:33.732] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 15.905109892584278,3.589919778102157,-13.21237999355526
+[16Nov2024 14:03:33.732] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 15.068609087087452,3.4811336677631033,-13.097602921397083
+[16Nov2024 14:03:33.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 14.236100938640789,3.3723475574240496,-12.949213652847902
+[16Nov2024 14:03:33.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 13.40715344185412,3.263561447084996,-12.770849026693213
+[16Nov2024 14:03:33.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 12.581381334309299,3.154775336745942,-12.565752375855482
+[16Nov2024 14:03:33.734] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.758081836813062,3.0459892264068884,-12.337497682841786
+[16Nov2024 14:03:33.734] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.936753792012496,2.9372031160678347,-12.089041028455085
+[16Nov2024 14:03:33.735] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.11718388877648,2.828417005728781,-11.822568264396523
+[16Nov2024 14:03:33.735] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.298486734270455,2.7196308953897272,-11.541403875772176
+[16Nov2024 14:03:33.735] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 8.48011378038666,2.6108447850506735,-11.248065896351818
+[16Nov2024 14:03:33.735] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 7.661919981151982,2.50205867471162,-10.944100117559174
+[16Nov2024 14:03:33.736] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 6.843885952038136,2.393272564372566,-10.630656467012614
+[16Nov2024 14:03:33.736] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 6.025994405922006,2.2844864540335124,-10.308760450192949
+[16Nov2024 14:03:33.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 5.208229926147055,2.1757003436944586,-9.979326612913155
+[16Nov2024 14:03:33.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 4.390578764138354,2.066914233355405,-9.643170547153659
+[16Nov2024 14:03:33.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 3.5730286589165416,1.9581281230163512,-9.30101959786316
+[16Nov2024 14:03:33.920] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 17.322832317328675,2.284508317120128,-5.06698261187239
+[16Nov2024 14:03:33.921] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 17.322832317328675,2.284508317120128,-5.06698261187239
+[16Nov2024 14:03:33.921] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 16.505817961346338,2.1757222067810744,-4.693049984254685
+[16Nov2024 14:03:33.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 15.688835759755193,2.0669360964420207,-4.3172098961281336
+[16Nov2024 14:03:33.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 14.871882233450947,1.958149986102967,-3.939668734670704
+[16Nov2024 14:03:33.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 14.055064247242171,1.8493638757639133,-3.5603819467610265
+[16Nov2024 14:03:33.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 13.238367135694148,1.7405777654248595,-3.1795384091360575
+[16Nov2024 14:03:33.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 12.421777820171542,1.6317916550858058,-2.7973065620753914
+[16Nov2024 14:03:33.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.605399300990598,1.523005544746752,-2.4135998482574905
+[16Nov2024 14:03:33.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.789208769992456,1.4142194344076984,-2.028577848227542
+[16Nov2024 14:03:33.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.97318588686062,1.3054333240686447,-1.6423828759197932
+[16Nov2024 14:03:34.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! -8.967539629165003,-1.196647213729591,4.309100046302319
+[16Nov2024 14:03:42.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:42.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:43.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06143231373835,1.631857468028656,-1.1550601449707756
+[16Nov2024 14:03:43.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 21.505700430320417,1.958215799045817,-2.3402360333689103
+[16Nov2024 14:03:43.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 20.69098895458353,1.8494296887067634,-1.9448656116328493
+[16Nov2024 14:03:43.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.87628509297167,1.7406435783677097,-1.5494419165815998
+[16Nov2024 14:03:43.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 19.06158802163668,1.631857468028656,-1.153970712386581
+[16Nov2024 14:03:43.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 18.24689700587078,1.5230713576896022,-0.758457139535949
+[16Nov2024 14:03:43.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 17.43221139046159,1.4142852473505485,-0.3629057823172843
+[16Nov2024 14:03:43.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 16.617530591090713,1.3054991370114948,0.032679271001597954
+[16Nov2024 14:03:43.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 15.802854086662819,1.196713026672441,0.428294374503821
+[16Nov2024 14:03:43.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 14.988181412465224,1.0879269163333873,0.823936276760378
+[16Nov2024 14:03:43.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 14.173512154067112,0.9791408059943336,1.219602078146636
+[16Nov2024 14:03:43.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 13.358845941879053,0.8703546956552799,1.6152891927772544
+[16Nov2024 14:03:43.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 12.544293617073777,0.7615685853162262,2.011223342567064
+[16Nov2024 14:03:43.050] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 11.738258832660904,0.6527824749771725,2.421458778208944
+[16Nov2024 14:03:43.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.948486696656573,0.5439963646381187,2.854908942360453
+[16Nov2024 14:03:43.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 10.181852198890397,0.435210254299065,3.3170954863708175
+[16Nov2024 14:03:43.052] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subter (vehicle of NushiPushi) moved too quickly! 9.439074503145207,0.3264241439600113,3.8074528320030367
+[16Nov2024 14:03:46.367] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi lost connection: Timed out
+[16Nov2024 14:03:46.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi left the game
+[16Nov2024 14:03:46.369] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client NushiPushi
+[16Nov2024 14:04:22.058] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NushiPushi[/127.46.11.204:56490] logged in with entity id 23774 at (-710.4610035601448, 86.70508672368715, 2078.9209777633164)
+[16Nov2024 14:04:22.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi joined the game
+[16Nov2024 14:04:25.511] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['skelly 2'/19576, l='ServerLevel[world]', x=-789.45, y=79.00, z=2201.35] died: skelly 2 burned to death
+[16Nov2024 14:04:38.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['skelly 2'/19572, l='ServerLevel[world]', x=-788.70, y=79.41, z=2201.01] died: skelly 2 burned to death
+[16Nov2024 14:05:31.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i hab map
+[16Nov2024 14:05:37.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> go explore
+[16Nov2024 14:05:50.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> TO ABYSALL CHASM
+[16Nov2024 14:06:05.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> explore
+[16Nov2024 14:06:12.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> can you mine some diamonds please
+[16Nov2024 14:06:18.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> have u gone
+[16Nov2024 14:06:23.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> no
+[16Nov2024 14:06:34.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> then why me
+[16Nov2024 14:06:44.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> because you have map
+[16Nov2024 14:06:54.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> why not together
+[16Nov2024 14:07:21.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ?????????????????
+[16Nov2024 14:08:20.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> NUSHI
+[16Nov2024 14:08:23.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> We need diamonds
+[16Nov2024 14:08:28.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> why
+[16Nov2024 14:08:47.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> for armor and weapons
+[16Nov2024 14:08:52.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> mine some diamonds please
+[16Nov2024 14:08:57.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> u had that
+[16Nov2024 14:09:19.553] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:09:19.553] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:09:19.554] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:09:20.048] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:09:21.052] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:09:21.053] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:09:30.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> hide and seek if u find me 1 min ill go
+[16Nov2024 14:09:37.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> twait
+[16Nov2024 14:09:40.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> 3
+[16Nov2024 14:09:43.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> 2
+[16Nov2024 14:09:43.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> not interested
+[16Nov2024 14:09:45.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WAIT
+[16Nov2024 14:10:15.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WHEN I SAY 1 U COME
+[16Nov2024 14:11:03.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> 1
+[16Nov2024 14:11:24.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> come and get me
+[16Nov2024 14:11:28.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> COMING
+[16Nov2024 14:11:42.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[16Nov2024 14:12:02.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> you are around china right/
+[16Nov2024 14:12:04.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> ?
+[16Nov2024 14:12:10.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ya
+[16Nov2024 14:12:10.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 14:12:51.668] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:12:51.669] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:12:51.670] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:12:52.720] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:12:53.721] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:12:53.721] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:13:01.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> 20 secs remaining
+[16Nov2024 14:13:18.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> found you
+[16Nov2024 14:13:24.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> late
+[16Nov2024 14:13:31.888] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:13:31.888] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:13:31.889] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:13:32.943] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:13:33.943] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:13:33.944] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:13:43.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SUSSY AMOUNG US RUNS
+[16Nov2024 14:14:55.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WHERE U BE
+[16Nov2024 14:15:14.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> sussy amoung us trys find
+[16Nov2024 14:16:12.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SUSSY AMOUNG US NOT FIND
+[16Nov2024 14:16:21.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> Speak proper
+[16Nov2024 14:16:32.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> player type whiter9se
+[16Nov2024 14:16:56.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> south east ?? lol sussy amoung us laughs
+[16Nov2024 14:18:15.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> bhaiya w y a
+[16Nov2024 14:18:27.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SORRY WHERE U AT
+[16Nov2024 14:18:31.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> china wall
+[16Nov2024 14:18:39.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WHICH SIDE
+[16Nov2024 14:18:45.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> west
+[16Nov2024 14:19:16.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> NEAR WHICH MONUMENT
+[16Nov2024 14:19:30.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> horse stable
+[16Nov2024 14:19:42.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> OK
+[16Nov2024 14:20:28.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> sees
+[16Nov2024 14:21:23.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> I FALLS
+[16Nov2024 14:21:39.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SKELLY SAVES ME
+[16Nov2024 14:21:40.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 1 [Netherite Sword] to WhiteR9se]
+[16Nov2024 14:23:04.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 9.54319283450775,-1.127890238205481,-3.408173587220517
+[16Nov2024 14:23:15.321] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 9.380045967482374,-0.756759288177264,4.764291535212124
+[16Nov2024 14:23:22.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> sword cool
+[16Nov2024 14:23:34.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BHAIYA WHERE
+[16Nov2024 14:23:45.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> we building walls
+[16Nov2024 14:24:11.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> GIB ME CREATIVE I BUILD ELYTRA FLYING THING
+[16Nov2024 14:24:25.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> give us 10 diamonds and we will
+[16Nov2024 14:24:34.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> CHEATING
+[16Nov2024 14:25:13.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i gib emerald
+[16Nov2024 14:26:10.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> 3 DIAMOND I HAB
+[16Nov2024 14:26:19.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> mine 10
+[16Nov2024 14:26:30.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> 5 EMERALD ONE GAPPLE
+[16Nov2024 14:27:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> OK
+[16Nov2024 14:27:50.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> bhaiya ok
+[16Nov2024 14:27:54.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> tmo
+[16Nov2024 14:27:56.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> no
+[16Nov2024 14:27:59.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 14:28:00.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> you didnt mine it
+[16Nov2024 14:28:05.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i did
+[16Nov2024 14:28:09.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> liar
+[16Nov2024 14:28:39.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i didnt mine but i trade with villager go minshaft find emerald
+[16Nov2024 14:28:48.920] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 9.622175237004626,-0.623264386218267,-2.9001758037729815
+[16Nov2024 14:28:54.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> no game mode c for yiu
+[16Nov2024 14:28:55.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> I MINED 5
+[16Nov2024 14:29:09.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> why fro u
+[16Nov2024 14:29:15.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.23324017638753958,-0.6709083839322858,10.205912847380205
+[16Nov2024 14:29:22.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -0.08538340939037425,-0.023088109101550458,10.149637568236813
+[16Nov2024 14:29:35.839] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:29:35.839] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:29:35.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:29:36.271] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:29:37.272] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:29:37.273] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:29:41.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -2.4245507865019817,-0.5800000131130219,-9.818887308103967
+[16Nov2024 14:30:05.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+[16Nov2024 14:30:06.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> COCKROACH
+[16Nov2024 14:30:24.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -1.7516167843909898,1.130906499714527,9.856943087740092
+[16Nov2024 14:31:34.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i build cool thing
+[16Nov2024 14:31:43.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> after done
+[16Nov2024 14:32:09.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> clear inventory of mine
+[16Nov2024 14:32:17.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Removed 7 item(s) from player NushiPushi]
+[16Nov2024 14:32:20.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set NushiPushi's game mode to Creative Mode]
+[16Nov2024 14:32:30.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> YAAAAAAAAAAAAY
+[16Nov2024 14:32:40.855] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -6.551321416752444,5.851997200667,4.960099186273965
+[16Nov2024 14:32:55.834] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.0,10.115552571625742,0.0
+[16Nov2024 14:33:12.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 7.329294956257286,4.124268165184802,5.633659851681841
+[16Nov2024 14:33:20.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> LAG
+[16Nov2024 14:33:30.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> TP ONE
+[16Nov2024 14:35:03.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[16Nov2024 14:35:14.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 14:37:51.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 14:39:57.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> want to see
+[16Nov2024 14:40:10.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> come to me
+[16Nov2024 14:40:19.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> this is level 1
+[16Nov2024 14:41:03.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -4.064309924675172,0.0,9.458616043412349
+[16Nov2024 14:41:08.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> bhaiyaaaaaaaaaaaaaaaaaaaaaaaaaa
+[16Nov2024 14:41:16.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> seees
+[16Nov2024 14:41:30.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 9.641322825899692,0.0,-3.7532042213365457
+[16Nov2024 14:42:11.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> come with elytra and rockets
+[16Nov2024 14:42:15.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> please
+[16Nov2024 14:42:27.890] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:42:27.890] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:42:27.890] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:42:28.288] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:42:29.289] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:42:29.290] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:43:29.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to NushiPushi]
+[16Nov2024 14:43:44.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> tries
+[16Nov2024 14:43:57.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> with elytra
+[16Nov2024 14:44:12.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
+[16Nov2024 14:44:37.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> where u gone
+[16Nov2024 14:44:48.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to NushiPushi]
+[16Nov2024 14:44:52.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> karan bhai u try
+[16Nov2024 14:44:59.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to NushiPushi]
+[16Nov2024 14:44:59.025] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 249.09220356999668,15.0,27.902263548650808
+[16Nov2024 14:44:59.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 249.09220356999668,15.0,27.902263548650808
+[16Nov2024 14:44:59.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 249.09220356999668,15.0,27.902263548650808
+[16Nov2024 14:44:59.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 249.09220356999668,15.0,27.902263548650808
+[16Nov2024 14:44:59.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 249.09220356999668,15.0,27.902263548650808
+[16Nov2024 14:45:15.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> cool right
+[16Nov2024 14:45:27.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 1 [Elytra] to WhiteR9se]
+[16Nov2024 14:45:30.821] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:45:30.821] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:45:30.822] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:45:30.877] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:45:31.886] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:45:31.887] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:45:32.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 643 [Firework Rocket] to WhiteR9se]
+[16Nov2024 14:45:59.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Survival Mode]
+[16Nov2024 14:46:21.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> this is why i wanted op so i could try and countinue makking
+[16Nov2024 14:46:23.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just experienced kinetic energy
+[16Nov2024 14:46:51.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> oooh burn
+[16Nov2024 14:47:02.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> so can i
+[16Nov2024 14:47:53.850] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/38708, l='ServerLevel[world]', x=-571.61, y=81.00, z=2375.32] died, message: 'Butcher was slain by Tiger'
+[16Nov2024 14:47:59.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> please
+[16Nov2024 14:48:04.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se experienced kinetic energy
+[16Nov2024 14:48:20.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BE AN op
+[16Nov2024 14:48:30.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> No op for nushi
+[16Nov2024 14:48:35.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> gamemode c yes
+[16Nov2024 14:48:37.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 14:48:37.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -55.315919315291126,-27.0,45.15610636903557
+[16Nov2024 14:48:37.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -55.315919315291126,-27.0,45.15610636903557
+[16Nov2024 14:48:37.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -55.315919315291126,-27.0,45.15610636903557
+[16Nov2024 14:48:37.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -55.315919315291126,-27.0,45.15610636903557
+[16Nov2024 14:48:51.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> yes op for nushi i change gamemode
+[16Nov2024 14:48:54.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just fell from a high place
+[16Nov2024 14:49:01.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> to check
+[16Nov2024 14:49:13.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> and contunue building
+[16Nov2024 14:49:26.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> plwse
+[16Nov2024 14:49:32.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> quiey
+[16Nov2024 14:49:52.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> atleast make day
+[16Nov2024 14:50:20.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Creative Mode]
+[16Nov2024 14:50:35.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se hit the ground too hard
+[16Nov2024 14:51:04.985] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -9.182309077330842,-0.125,4.3286124352684965
+[16Nov2024 14:52:32.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se fell from a high place
+[16Nov2024 14:54:14.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.0,-10.468705676006408,-0.09875477459263493
+[16Nov2024 14:54:25.771] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 14:54:25.771] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 14:54:25.773] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 14:54:26.222] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:54:27.223] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 14:54:27.223] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 14:58:53.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
+[16Nov2024 14:59:00.449] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.062130847559274116,8.866308499156943,-5.295712505766005
+[16Nov2024 14:59:07.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Survival Mode]
+[16Nov2024 14:59:09.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 64 [Firework Rocket] to WhiteR9se]
+[16Nov2024 14:59:12.465] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/42044, l='ServerLevel[world]', x=-583.06, y=81.92, z=2376.05] died, message: 'Weaponsmith was slain by Tiger'
+[16Nov2024 14:59:37.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 14:59:37.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 0.4588421129054723,95.0,-0.23518169229282648
+[16Nov2024 14:59:37.585] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 0.4588421129054723,95.0,-0.23518169229282648
+[16Nov2024 14:59:37.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 0.4588421129054723,95.0,-0.23518169229282648
+[16Nov2024 14:59:37.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 0.4588421129054723,95.0,-0.23518169229282648
+[16Nov2024 15:00:04.130] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.19283216919177448,10.069229660460053,0.2867481434914225
+[16Nov2024 15:00:35.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved too quickly! -8.725157023716292,-1.5335541128137038,15.790744536222519
+[16Nov2024 15:00:36.294] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -8.914625953798122,-1.904718231544507,16.041432380821334
+[16Nov2024 15:02:00.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 17.382546817811317,-1.7004048007020742,6.661386807009876
+[16Nov2024 15:02:01.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved wrongly!
+[16Nov2024 15:02:27.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gave 64 [Steak] to WhiteR9se]
+[16Nov2024 15:02:35.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se fell from a high place
+[16Nov2024 15:02:41.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 15:03:02.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 15:03:02.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -49.598933132264165,74.60757040200642,32.26882655707868
+[16Nov2024 15:03:10.856] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! 0.0,10.125000402331352,0.0
+[16Nov2024 15:03:14.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Creative Mode]
+[16Nov2024 15:03:18.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved too quickly! -5.070631472654441,17.75013631504291,-4.0359109054688815
+[16Nov2024 15:04:09.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just has made the advancement [You Are A Pirate]
+[16Nov2024 15:04:50.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
+[16Nov2024 15:05:05.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just experienced kinetic energy
+[16Nov2024 15:05:15.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported somebody_just to WhiteR9se]
+[16Nov2024 15:05:43.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported NushiPushi to somebody_just]
+[16Nov2024 15:05:46.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> look
+[16Nov2024 15:05:49.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> floating island
+[16Nov2024 15:05:51.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ayo
+[16Nov2024 15:05:58.421] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi lost connection: Timed out
+[16Nov2024 15:05:58.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi left the game
+[16Nov2024 15:05:58.423] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client NushiPushi
+[16Nov2024 15:05:59.560] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 15:05:59.560] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 15:05:59.561] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 15:05:59.971] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:06:00.971] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:06:00.972] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 15:06:28.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
+[16Nov2024 15:06:28.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -68.77196091486621,-30.44042044647648,-12.592264478533252
+[16Nov2024 15:06:28.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -68.77196091486621,-30.44042044647648,-12.592264478533252
+[16Nov2024 15:06:28.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -68.77196091486621,-30.44042044647648,-12.592264478533252
+[16Nov2024 15:06:28.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -68.77196091486621,-30.44042044647648,-12.592264478533252
+[16Nov2024 15:06:39.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved wrongly!
+[16Nov2024 15:06:43.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved wrongly!
+[16Nov2024 15:06:43.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved wrongly!
+[16Nov2024 15:06:45.944] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NushiPushi[/127.46.11.204:59978] logged in with entity id 52246 at (-690.184864212443, 264.3305447924838, 3825.4837313367957)
+[16Nov2024 15:06:45.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi joined the game
+[16Nov2024 15:06:48.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was slain by Giant Squid
+[16Nov2024 15:07:08.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 15:07:08.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 15:07:08.902] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 15:07:08.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:07:09.957] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:07:09.958] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 15:07:12.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
+[16Nov2024 15:07:20.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> am i in heaven
+[16Nov2024 15:07:47.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported NushiPushi to somebody_just]
+[16Nov2024 15:07:59.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SUSSY AMOUNG US
+[16Nov2024 15:08:10.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> MAKE IT DAY
+[16Nov2024 15:08:21.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -0.3997502579268257,10.12498840823639,0.11226182375276039
+[16Nov2024 15:08:32.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 15:08:44.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi moved too quickly! -8.634190080071448,3.750000149011612,3.962555214938675
+[16Nov2024 15:08:48.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Creative Mode]
+[16Nov2024 15:08:59.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> which biome
+[16Nov2024 15:09:11.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> heaven
+[16Nov2024 15:09:26.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> GAMEMODE
+[16Nov2024 15:09:34.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set NushiPushi's game mode to Survival Mode]
+[16Nov2024 15:09:47.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> GIB E;YTRA AND ROCKET
+[16Nov2024 15:09:49.724] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 15:09:49.724] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 15:09:49.725] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 15:09:50.782] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:09:51.784] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:09:51.784] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 15:09:54.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> quiet
+[16Nov2024 15:09:57.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set NushiPushi's game mode to Creative Mode]
+[16Nov2024 15:10:10.830] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
+[16Nov2024 15:10:10.830] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
+[16Nov2024 15:10:10.830] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[16Nov2024 15:10:11.113] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:10:11.884] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
+[16Nov2024 15:10:11.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
+[16Nov2024 15:10:15.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> bierd name for biome
+[16Nov2024 15:10:28.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> giant squid???????????????
+[16Nov2024 15:10:47.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> come to whatsap?
+[16Nov2024 15:10:50.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> yes
+[16Nov2024 15:11:00.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i clutch
+[16Nov2024 15:12:14.685] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi lost connection: Disconnected
+[16Nov2024 15:12:14.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi left the game
+[16Nov2024 15:12:14.686] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client NushiPushi
+[16Nov2024 15:12:20.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
+[16Nov2024 15:14:03.826] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SkeletonHorse['skelly 2'/18267, l='ServerLevel[world]', x=-788.70, y=79.00, z=2201.30] died: skelly 2 was killed
+[16Nov2024 15:14:03.827] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SkeletonHorse['skelly 1'/19573, l='ServerLevel[world]', x=-766.30, y=77.00, z=2187.70] died: skelly 1 was killed
+[16Nov2024 15:14:03.829] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SubterranodonEntity['Subter'/23775, l='ServerLevel[world]', x=-724.90, y=84.00, z=2066.13] died: Subter was killed
+[16Nov2024 15:14:03.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was killed
+[16Nov2024 15:14:03.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was killed
+[16Nov2024 15:14:03.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 217 entities]
+[16Nov2024 15:14:55.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 32 entities]
+[16Nov2024 15:15:02.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 180 entities]
+[16Nov2024 15:15:37.304] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -208.25044263753756,-30.0,140.2364105571187
+[16Nov2024 15:15:46.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 187.68196024032864,29.0,-137.8130036862501
+[16Nov2024 15:15:46.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 187.68196024032864,29.0,-137.8130036862501
+[16Nov2024 15:15:46.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 187.68196024032864,29.0,-137.8130036862501
+[16Nov2024 15:15:46.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 187.68196024032864,29.0,-137.8130036862501
+[16Nov2024 15:18:39.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just was killed
+[16Nov2024 15:18:39.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed somebody_just]
+[16Nov2024 15:18:56.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported WhiteR9se to somebody_just]
+[16Nov2024 15:18:56.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.786] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.795] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:18:56.804] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -192.52240929683546,-26.0,133.04676462363705
+[16Nov2024 15:19:04.601] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 186.09202472412267,26.0,-133.4327149120884
+[16Nov2024 15:20:19.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
+[16Nov2024 15:26:32.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 15:29:48.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[16Nov2024 15:29:48.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: git add .<--[HERE]
+[16Nov2024 15:31:19.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Successfully filled 9 block(s)]
+[16Nov2024 15:32:16.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Successfully filled 704 block(s)]
+[16Nov2024 15:33:19.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Successfully filled 229 block(s)]
+[16Nov2024 15:34:55.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 13000]
+[16Nov2024 15:35:15.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[16Nov2024 15:38:49.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 206 entities]
+[16Nov2024 15:38:55.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 228 entities]
+[16Nov2024 15:40:25.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set WhiteR9se's game mode to Survival Mode]
+[16Nov2024 15:40:46.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se has made the advancement [We Just Want our Hat Back]
+[16Nov2024 15:40:57.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported WhiteR9se to somebody_just]
+[16Nov2024 15:40:57.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 16.246784560168408,-5.0,-2.828422821678487
+[16Nov2024 15:40:57.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 16.246784560168408,-5.0,-2.828422821678487
+[16Nov2024 15:41:17.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Made somebody_just no longer a server operator]
+[16Nov2024 15:41:26.717] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
+[16Nov2024 15:41:26.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
+[16Nov2024 15:41:26.719] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
+[16Nov2024 15:41:33.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se has made the advancement [A Bone to Pick]
+[16Nov2024 15:42:03.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se drowned
+[16Nov2024 15:42:12.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was killed
+[16Nov2024 15:42:12.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Killed WhiteR9se]
+[16Nov2024 15:42:26.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was killed
+[16Nov2024 15:42:26.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Killed WhiteR9se]
+[16Nov2024 15:42:42.710] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
+[16Nov2024 15:42:42.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
+[16Nov2024 15:42:42.710] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
+[16Nov2024 15:42:51.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[16Nov2024 15:42:51.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Nov2024 15:42:51.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Nov2024 15:42:51.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Nov2024 15:42:51.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Nov2024 15:42:51.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16Nov2024 15:42:51.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16Nov2024 15:42:51.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Nov2024 15:42:51.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Nov2024 15:42:51.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Nov2024 15:42:51.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Nov2024 15:42:51.806] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

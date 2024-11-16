@@ -159,6 +159,7 @@
       "golden_apple": "2024-07-27 21:27:16 +0530",
       "rotten_flesh": "2024-05-22 16:52:51 +0530",
       "glow_berries": "2024-07-27 10:51:19 +0530",
+      "melon_slice": "2024-11-16 14:07:54 +0530",
       "enchanted_golden_apple": "2024-07-20 21:22:58 +0530",
       "carrot": "2024-06-01 11:41:02 +0530"
     },
@@ -3951,6 +3952,36 @@
   "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2024-08-28 20:52:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-11-16 14:07:49 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2024-11-16 14:07:49 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2024-11-16 14:07:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-11-16 14:07:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-11-16 14:07:49 +0530"
     },
     "done": true
   },
