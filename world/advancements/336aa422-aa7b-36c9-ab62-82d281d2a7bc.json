@@ -6107,15 +6107,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-11-16 14:34:12 +0530"
+    },
+    "done": true
+  },
   "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
       "location0": "2024-11-16 15:04:09 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/misc/lime_dye_from_smelting": {
+  "alexscaves:alexscaves/burrowing_arrow": {
     "criteria": {
-      "has_sea_pickle": "2024-11-16 14:34:12 +0530"
+      "burrowing_arrow": "2024-11-17 09:33:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2024-11-17 08:32:07 +0530"
     },
     "done": true
   },
