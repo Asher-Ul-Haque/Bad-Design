@@ -6131,5 +6131,77 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2024-11-19 17:49:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-11-19 16:59:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2024-11-19 16:59:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-11-19 16:59:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-11-19 18:02:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:19 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

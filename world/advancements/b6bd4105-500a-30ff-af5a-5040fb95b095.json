@@ -3994,5 +3994,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2024-11-19 16:22:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2024-11-19 16:22:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-11-19 16:23:05 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
