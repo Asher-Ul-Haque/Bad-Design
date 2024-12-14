@@ -1,7 +1,6 @@
 @echo off
 REM Update the local repository
 echo Updating the local repository...
-git pull origin main
 if errorlevel 1 exit /b 1
 
 REM Start the playit.gg service in the background
@@ -14,9 +13,9 @@ if errorlevel 1 exit /b 1
 
 REM Commit and push changes
 echo Committing and pushing changes...
-git commit -am "Auto commit"
-if errorlevel 1 exit /b 1
-git push origin main
-if errorlevel 1 exit /b 1
+#git commit -am "Auto commit"
+#if errorlevel 1 exit /b 1
+#git push origin main
+#if errorlevel 1 exit /b 1
 
 pause

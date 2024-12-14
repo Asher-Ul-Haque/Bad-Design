@@ -1,47 +1,47 @@
-[19Nov2024 15:54:55.576] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[19Nov2024 15:54:55.585] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[19Nov2024 15:54:56.775] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[19Nov2024 15:54:56.833] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[19Nov2024 15:54:57.190] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[19Nov2024 15:54:57.274] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[19Nov2024 15:54:57.319] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[19Nov2024 15:54:57.358] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft Servers\Bad-Design\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[19Nov2024 15:54:57.503] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[19Nov2024 15:54:59.125] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Nov2024 15:54:59.267] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[19Nov2024 15:54:59.269] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[19Nov2024 15:54:59.295] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Nov2024 15:54:59.296] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Nov2024 15:54:59.324] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Nov2024 15:55:00.020] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[19Nov2024 15:55:00.021] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[19Nov2024 15:55:00.022] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[19Nov2024 15:55:00.024] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[19Nov2024 15:55:00.025] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[19Nov2024 15:55:00.026] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[19Nov2024 15:55:00.027] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[19Nov2024 15:55:00.027] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[19Nov2024 15:55:07.027] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[19Nov2024 15:55:07.028] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[19Nov2024 15:55:09.940] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[19Nov2024 15:55:10.044] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[19Nov2024 15:55:10.050] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[19Nov2024 15:55:10.050] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[19Nov2024 15:55:10.051] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[19Nov2024 15:55:10.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[19Nov2024 15:55:10.591] [main/INFO] [journeymap/]: Initializing Packet Registries
-[19Nov2024 15:55:10.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.25 Target: 1.20.1-2.5.26
-[19Nov2024 15:55:10.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[19Nov2024 15:55:11.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
-[19Nov2024 15:55:11.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Nov2024 15:55:11.816] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Nov2024 15:55:12.274] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[19Nov2024 15:55:12.814] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
-[19Nov2024 15:55:12.815] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
-[19Nov2024 15:55:12.860] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[19Nov2024 15:55:12.861] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[19Nov2024 15:55:14.491] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[19Nov2024 15:55:15.076] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[14Dec2024 21:44:22.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14Dec2024 21:44:22.575] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 23 by Arch Linux; OS Linux arch amd64 version 6.12.4-arch1-1
+[14Dec2024 21:44:22.907] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Dec2024 21:44:22.961] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/run/media/kermit/WD%20Main/Minecraft%20Servers/Bad-Design/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Dec2024 21:44:23.290] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /run/media/kermit/WD Main/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[14Dec2024 21:44:23.291] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /run/media/kermit/WD Main/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Dec2024 21:44:23.293] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /run/media/kermit/WD Main/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Dec2024 21:44:23.294] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /run/media/kermit/WD Main/Minecraft Servers/Bad-Design/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Dec2024 21:44:23.398] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[14Dec2024 21:44:24.857] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Dec2024 21:44:24.967] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[14Dec2024 21:44:24.970] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Dec2024 21:44:24.992] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Dec2024 21:44:24.993] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Dec2024 21:44:25.020] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Dec2024 21:44:25.735] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[14Dec2024 21:44:25.735] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[14Dec2024 21:44:25.736] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[14Dec2024 21:44:25.737] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[14Dec2024 21:44:25.738] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[14Dec2024 21:44:25.738] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[14Dec2024 21:44:25.739] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[14Dec2024 21:44:25.739] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[14Dec2024 21:44:31.620] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[14Dec2024 21:44:31.620] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[14Dec2024 21:44:33.871] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[14Dec2024 21:44:33.934] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14Dec2024 21:44:33.941] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[14Dec2024 21:44:33.941] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14Dec2024 21:44:33.942] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[14Dec2024 21:44:34.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[14Dec2024 21:44:34.241] [main/INFO] [journeymap/]: Initializing Packet Registries
+[14Dec2024 21:44:34.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.25 Target: 1.20.1-2.5.26
+[14Dec2024 21:44:34.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[14Dec2024 21:44:35.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.23 Target: 5.10.3
+[14Dec2024 21:44:35.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Dec2024 21:44:35.708] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Dec2024 21:44:36.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[14Dec2024 21:44:37.007] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/run/media/kermit/WD%20Main/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
+[14Dec2024 21:44:37.008] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/run/media/kermit/WD%20Main/Minecraft%20Servers/Bad-Design/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
+[14Dec2024 21:44:37.050] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[14Dec2024 21:44:37.051] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[14Dec2024 21:44:38.760] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[14Dec2024 21:44:39.279] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -58,8 +58,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
 	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
@@ -77,245 +77,224 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[19Nov2024 15:55:15.106] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[19Nov2024 15:55:15.203] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
-[19Nov2024 15:55:15.208] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
-[19Nov2024 15:55:16.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[19Nov2024 15:55:16.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[19Nov2024 15:55:16.767] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[19Nov2024 15:55:16.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Nov2024 15:55:16.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[19Nov2024 15:55:16.861] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[19Nov2024 15:55:17.025] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19Nov2024 15:55:17.025] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[19Nov2024 15:55:17.026] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19Nov2024 15:55:17.026] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[19Nov2024 15:55:17.069] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[19Nov2024 15:55:17.205] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[19Nov2024 15:55:19.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Nov2024 15:55:23.008] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.031] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.041] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.054] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.067] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.085] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:23.653] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:24.635] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:24.637] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Nov2024 15:55:25.000] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[19Nov2024 15:55:25.499] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[19Nov2024 15:55:25.725] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5726 ms
-[19Nov2024 15:55:25.726] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.666s)! For help, type "help"
-[19Nov2024 15:55:25.772] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Nov2024 15:55:25.899] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[19Nov2024 15:55:25.920] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'robert-manuals.gl.at.ply.gg'
-[19Nov2024 15:55:25.922] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1565
-[19Nov2024 16:08:33.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:51416] logged in with entity id 39 at (-112.90690362694855, 109.06154639749491, 493.48004149136034)
-[19Nov2024 16:08:33.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
-[19Nov2024 16:08:34.428] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
-[19Nov2024 16:08:34.432] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 16:08:35.903] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:08:36.894] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:08:36.904] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 16:09:00.935] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: somebody_just[/127.58.237.215:51444] logged in with entity id 162 at (-723.207938910873, 236.87467710292995, 3793.9589682998912)
-[19Nov2024 16:09:00.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just joined the game
-[19Nov2024 16:09:01.784] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of somebody_just (18)
-[19Nov2024 16:09:01.786] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to somebody_just
-[19Nov2024 16:09:04.879] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
-[19Nov2024 16:09:04.979] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 336aa422-aa7b-36c9-ab62-82d281d2a7bc
-[19Nov2024 16:09:04.980] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player somebody_just (336aa422-aa7b-36c9-ab62-82d281d2a7bc) successfully connected to voice chat
-[19Nov2024 16:09:39.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported somebody_just to WhiteR9se]
-[19Nov2024 16:10:09.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> join china
-[19Nov2024 16:10:27.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set own game mode to Creative Mode]
-[19Nov2024 16:15:56.538] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
-[19Nov2024 16:15:56.539] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
-[19Nov2024 16:15:56.542] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 16:15:56.810] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:15:57.811] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:15:57.812] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 16:16:37.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 14 entities]
-[19Nov2024 16:18:50.515] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
-[19Nov2024 16:18:50.516] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
-[19Nov2024 16:18:50.517] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 16:18:50.583] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:18:51.582] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:18:51.583] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 16:19:04.920] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NushiPushi[/127.58.237.215:51685] logged in with entity id 3112 at (-2826.2624271287955, 129.0, 3341.6761091623266)
-[19Nov2024 16:19:04.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi joined the game
-[19Nov2024 16:19:06.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just moved too quickly! 4.869572249849853,-9.511361445793483,-1.2513240962748569
-[19Nov2024 16:19:29.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> CAN I HELP
-[19Nov2024 16:19:44.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> can you make decorations and pathway
-[19Nov2024 16:19:50.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> yea
-[19Nov2024 16:19:55.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Teleported NushiPushi to somebody_just]
-[19Nov2024 16:20:06.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> we have to clean this island
-[19Nov2024 16:20:10.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> make it nice
-[19Nov2024 16:20:13.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WHCIH THEME
-[19Nov2024 16:20:16.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> add trees in proper position
-[19Nov2024 16:20:19.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> cherry pink
-[19Nov2024 16:20:27.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> hello
-[19Nov2024 16:20:30.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> come with me
-[19Nov2024 16:20:30.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> SLENDER MANNNNNNNNNNNNNNN
-[19Nov2024 16:20:40.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> no slender
-[19Nov2024 16:20:42.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> only kermit
-[19Nov2024 16:20:51.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> WHERE KERMIT
-[19Nov2024 16:20:53.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> sse
-[19Nov2024 16:20:56.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> see
-[19Nov2024 16:21:05.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> OHH THTA TRICK BHAIYA DOES
-[19Nov2024 16:21:16.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> IN OONGA BOONGA CAVE THING
-[19Nov2024 16:22:02.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> so cut trees and make them perfectly
-[19Nov2024 16:22:06.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> YES
-[19Nov2024 16:22:13.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ALL OF THEM
-[19Nov2024 16:22:17.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> do not use torches
-[19Nov2024 16:22:24.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> make streetlights
-[19Nov2024 16:22:25.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ONLY LANTERNS
-[19Nov2024 16:22:33.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 14 entities]
-[19Nov2024 16:22:35.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> IN STRRETLIGHTS
-[19Nov2024 16:22:37.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> oie
-[19Nov2024 16:22:38.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> okie
-[19Nov2024 16:23:13.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> alesat day
-[19Nov2024 16:23:18.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 1000]
-[19Nov2024 16:24:00.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 1000]
-[19Nov2024 16:24:03.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 16 entities]
-[19Nov2024 16:24:18.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> can i burn tree to make fast
-[19Nov2024 16:25:06.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 8 entities]
-[19Nov2024 16:25:32.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> No explosions
-[19Nov2024 16:25:43.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> creeper was there in way
-[19Nov2024 16:26:04.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i burning trees na
-[19Nov2024 16:27:02.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 18 entities]
-[19Nov2024 16:28:35.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 10 entities]
-[19Nov2024 16:28:49.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> why there jiant squid buah
-[19Nov2024 16:29:30.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i has confession to make.
-[19Nov2024 16:29:48.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> i butnty house
-[19Nov2024 16:30:57.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ughhhhhhhhhhhhhh someone else do trees
-[19Nov2024 16:31:18.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 14 entities]
-[19Nov2024 16:32:10.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BAHIYA DO TREES
-[19Nov2024 16:32:23.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 7 entities]
-[19Nov2024 16:32:24.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> i am doing the walkway
-[19Nov2024 16:32:26.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> CAN I ADD TV
-[19Nov2024 16:32:30.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> ok
-[19Nov2024 16:32:31.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> no
-[19Nov2024 16:32:36.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> interior mine
-[19Nov2024 16:32:43.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> UM
-[19Nov2024 16:32:46.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> you come to outside of house, use a shovel to make path
-[19Nov2024 16:32:55.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> OK
-[19Nov2024 16:33:06.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BUT ILL ADD TV AND PC
-[19Nov2024 16:34:04.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> PATH TO WHERE
-[19Nov2024 16:34:05.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 14 entities]
-[19Nov2024 16:34:10.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
-[19Nov2024 16:34:14.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> to nether portal with karan bhai
-[19Nov2024 16:34:16.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> path from the portal to the house
-[19Nov2024 16:34:25.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported NushiPushi to WhiteR9se]
-[19Nov2024 16:34:34.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> from here to the house
-[19Nov2024 16:35:12.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> u bring from house
-[19Nov2024 16:35:47.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 14 entities]
-[19Nov2024 16:36:16.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 4 entities]
-[19Nov2024 16:37:46.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> anousha
-[19Nov2024 16:37:54.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> join the pathway from your side
-[19Nov2024 16:37:55.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ????????/////
-[19Nov2024 16:38:00.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> where i have put these blocks
-[19Nov2024 16:38:05.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> this is the blueprint of sorts
-[19Nov2024 16:38:32.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> you will find these blocks to the portal
-[19Nov2024 16:38:37.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> ok
-[19Nov2024 16:38:39.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> i connect it from my side
-[19Nov2024 16:38:40.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> okie
-[19Nov2024 16:39:12.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 13 entities]
-[19Nov2024 16:40:17.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Killed 5 entities]
-[19Nov2024 16:40:59.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Gamerule doMobSpawning is now set to: false]
-[19Nov2024 16:41:04.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 13000]
-[19Nov2024 16:41:09.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BWAH
-[19Nov2024 16:41:25.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> HOW I SEE
-[19Nov2024 16:41:41.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
-[19Nov2024 16:43:05.626] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Panda['John Jr'/4497, l='ServerLevel[world]', x=-712.10, y=227.00, z=3806.50] died: John Jr suffocated in a wall
-[19Nov2024 16:43:14.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <NushiPushi> BYE I GOT TO GO
-[19Nov2024 16:43:24.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> bye bye
-[19Nov2024 16:43:59.127] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NushiPushi lost connection: Disconnected
-[19Nov2024 16:43:59.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NushiPushi left the game
-[19Nov2024 16:43:59.137] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client NushiPushi
-[19Nov2024 16:51:45.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 1000]
-[19Nov2024 16:56:09.363] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
-[19Nov2024 16:56:09.363] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
-[19Nov2024 16:56:09.364] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 16:56:09.647] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:56:10.640] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 16:56:10.641] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 16:59:50.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just has made the advancement [Crafting a New Look]
-[19Nov2024 17:03:18.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Removed 339 item(s) from player somebody_just]
-[19Nov2024 17:30:34.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> check the house
-[19Nov2024 17:31:24.381] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1493eb3d-a48e-3649-bde2-77d6b5ca9805 timed out
-[19Nov2024 17:31:24.381] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player WhiteR9se
-[19Nov2024 17:31:24.383] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 17:31:24.703] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 17:31:25.704] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 17:31:25.705] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 17:32:28.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 201.7440846974771,-111.0,-1910.2999691174582
-[19Nov2024 17:32:28.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! 201.7440846974771,-111.0,-1910.2999691174582
-[19Nov2024 17:32:47.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[19Nov2024 17:32:47.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -211.39748790437176,107.0625,1902.6870003314527
-[19Nov2024 17:32:47.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 13000]
-[19Nov2024 17:41:40.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
-[19Nov2024 17:41:48.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 6000]
-[19Nov2024 17:41:56.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
-[19Nov2024 17:42:02.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 900]
-[19Nov2024 17:42:08.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 100]
-[19Nov2024 17:42:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 0]
-[19Nov2024 17:42:34.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 0]
-[19Nov2024 17:51:07.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> asherrrrrrrrrrrrrrr
-[19Nov2024 17:51:11.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> voice not comigng?
-[19Nov2024 17:51:24.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> ARE YOU SAYING SOMETHING
-[19Nov2024 17:51:31.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> yes i am saying something
-[19Nov2024 17:51:37.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> I CANT HEAR YOU
-[19Nov2024 17:51:40.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> CAN YOU HEAR ME
-[19Nov2024 17:52:02.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> teri aa rhi hai
-[19Nov2024 17:52:03.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> yes
-[19Nov2024 17:52:07.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> meri nhi jaa rhi i think
-[19Nov2024 17:52:14.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> tu bol
-[19Nov2024 17:52:17.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> fir jaate hai
-[19Nov2024 17:52:20.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> server band karke
-[19Nov2024 17:52:37.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> theek hai
-[19Nov2024 17:52:41.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> chal fir mai jaa rha hu
-[19Nov2024 17:52:49.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> git push kar rha hu abhi hi
-[19Nov2024 17:52:58.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> bye ye
-[19Nov2024 17:53:05.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> call me when you are done with it
-[19Nov2024 17:53:08.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> so i can stop the serve
-[19Nov2024 17:53:12.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <WhiteR9se> server
-[19Nov2024 17:53:13.878] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
-[19Nov2024 17:53:13.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
-[19Nov2024 17:53:13.879] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
-[19Nov2024 17:53:18.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <somebody_just> stop now, I will play local
-[19Nov2024 17:54:57.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Removed 34 item(s) from player somebody_just]
-[19Nov2024 18:01:12.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Gamerule doMobSpawning is now set to: true]
-[19Nov2024 18:02:09.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Removed 13 item(s) from player somebody_just]
-[19Nov2024 18:03:46.687] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:57365] logged in with entity id 16168 at (-735.4995727052055, 227.0, 3804.668005713003)
-[19Nov2024 18:03:46.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
-[19Nov2024 18:03:47.315] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
-[19Nov2024 18:03:47.316] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
-[19Nov2024 18:03:49.148] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 18:03:52.155] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1493eb3d-a48e-3649-bde2-77d6b5ca9805
-[19Nov2024 18:03:52.157] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player WhiteR9se (1493eb3d-a48e-3649-bde2-77d6b5ca9805) successfully connected to voice chat
-[19Nov2024 18:07:04.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Set the time to 13000]
-[19Nov2024 18:10:24.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Teleported WhiteR9se to somebody_just]
-[19Nov2024 18:10:24.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -64.1038080362398,0.5673200820222917,7.307716137508578
-[19Nov2024 18:10:24.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -64.1038080362398,0.5673200820222917,7.307716137508578
-[19Nov2024 18:10:25.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -64.1038080362398,0.5673200820222917,7.307716137508578
-[19Nov2024 18:10:25.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -64.1038080362398,0.5673200820222917,7.307716137508578
-[19Nov2024 18:10:25.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se moved too quickly! -64.1038080362398,0.5673200820222917,7.307716137508578
-[19Nov2024 18:12:55.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [somebody_just: Removed 197 item(s) from player somebody_just]
-[19Nov2024 18:13:25.630] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: somebody_just lost connection: Disconnected
-[19Nov2024 18:13:25.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: somebody_just left the game
-[19Nov2024 18:13:25.631] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client somebody_just
-[19Nov2024 18:24:57.679] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
-[19Nov2024 18:24:57.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
-[19Nov2024 18:24:57.683] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
-[19Nov2024 18:25:10.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19Nov2024 18:25:10.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Nov2024 18:25:10.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Nov2024 18:25:10.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Nov2024 18:25:10.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19Nov2024 18:25:10.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19Nov2024 18:25:10.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19Nov2024 18:25:10.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19Nov2024 18:25:10.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Nov2024 18:25:10.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Nov2024 18:25:10.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Nov2024 18:25:10.993] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 21:44:39.291] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[14Dec2024 21:44:39.407] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1752 advancements
+[14Dec2024 21:44:39.414] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id callablehorses:horse_drop - error: Input does not contain a key [type]: MapLike[{"conditions":[{"condition":"minecraft:entity_properties","predicate":{"type":"#callablehorses:callablehorses"},"entity":"THIS"}]}]
+[14Dec2024 21:44:40.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Dec2024 21:44:40.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Dec2024 21:44:40.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Dec2024 21:44:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Dec2024 21:44:41.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Dec2024 21:44:41.070] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Dec2024 21:44:41.202] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Dec2024 21:44:41.202] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Dec2024 21:44:41.203] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Dec2024 21:44:41.203] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Dec2024 21:44:41.220] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 21:44:41.221] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 21:44:41.222] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[14Dec2024 21:44:41.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Dec2024 21:44:44.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Dec2024 21:44:45.116] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:45.119] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:45.788] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:47.312] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:47.312] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:47.313] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:47.407] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:49.356] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:49.357] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:49.358] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:50.885] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:50.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:50.886] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:50.912] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:51.406] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:51.923] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:53.721] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:53.722] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:53.723] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:53.905] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:54.419] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:54.924] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:55.409] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:55.925] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:57.791] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:57.815] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:57.837] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:57.918] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 21:44:58.989] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Dec2024 21:44:58.990] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Dec2024 21:45:00.328] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Dec2024 21:45:00.329] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Dec2024 21:45:00.406] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[14Dec2024 21:45:00.926] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[14Dec2024 21:45:01.408] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[14Dec2024 21:45:01.921] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[14Dec2024 21:45:03.726] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[14Dec2024 21:45:03.727] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[14Dec2024 21:45:03.727] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[14Dec2024 21:45:05.053] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:05.053] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:05.054] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.019] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.020] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.022] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.023] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.023] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.024] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.025] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:09.026] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.223] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.224] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.225] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.226] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.420] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[14Dec2024 21:45:11.914] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[14Dec2024 21:45:12.421] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[14Dec2024 21:45:12.909] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[14Dec2024 21:45:13.416] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[14Dec2024 21:45:14.024] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[14Dec2024 21:45:14.451] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[14Dec2024 21:45:14.928] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[14Dec2024 21:45:15.426] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[14Dec2024 21:45:15.994] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[14Dec2024 21:45:16.420] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[14Dec2024 21:45:16.906] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[14Dec2024 21:45:17.678] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[14Dec2024 21:45:17.905] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[14Dec2024 21:45:18.430] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[14Dec2024 21:45:18.909] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[14Dec2024 21:45:19.414] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[14Dec2024 21:45:19.905] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[14Dec2024 21:45:20.412] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[14Dec2024 21:45:22.106] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[14Dec2024 21:45:22.107] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[14Dec2024 21:45:22.107] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[14Dec2024 21:45:22.405] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[14Dec2024 21:45:24.099] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:24.100] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:24.100] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:25.640] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:25.641] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:25.641] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:25.924] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[14Dec2024 21:45:26.427] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[14Dec2024 21:45:26.918] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[14Dec2024 21:45:29.404] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:29.405] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:29.405] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:29.405] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:29.405] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:29.918] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[14Dec2024 21:45:30.419] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[14Dec2024 21:45:30.913] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[14Dec2024 21:45:31.415] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[14Dec2024 21:45:31.905] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[14Dec2024 21:45:32.432] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[14Dec2024 21:45:32.907] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[14Dec2024 21:45:33.407] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[14Dec2024 21:45:33.906] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[14Dec2024 21:45:34.406] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[14Dec2024 21:45:34.909] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[14Dec2024 21:45:35.407] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[14Dec2024 21:45:35.905] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[14Dec2024 21:45:36.415] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[14Dec2024 21:45:36.929] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[14Dec2024 21:45:37.419] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[14Dec2024 21:45:37.918] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[14Dec2024 21:45:38.425] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[14Dec2024 21:45:38.910] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[14Dec2024 21:45:39.435] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[14Dec2024 21:45:41.216] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[14Dec2024 21:45:41.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[14Dec2024 21:45:41.218] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[14Dec2024 21:45:41.411] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[14Dec2024 21:45:43.433] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[14Dec2024 21:45:43.434] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[14Dec2024 21:45:43.434] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[14Dec2024 21:45:43.434] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[14Dec2024 21:45:43.906] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[14Dec2024 21:45:44.416] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[14Dec2024 21:45:46.145] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[14Dec2024 21:45:46.146] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[14Dec2024 21:45:46.146] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[14Dec2024 21:45:46.405] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[14Dec2024 21:45:46.909] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[14Dec2024 21:45:47.406] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[14Dec2024 21:45:47.909] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[14Dec2024 21:45:48.411] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[14Dec2024 21:45:48.907] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[14Dec2024 21:45:50.766] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[14Dec2024 21:45:50.766] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[14Dec2024 21:45:50.767] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[14Dec2024 21:45:50.910] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[14Dec2024 21:45:51.408] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[14Dec2024 21:45:53.278] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Dec2024 21:45:53.279] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Dec2024 21:45:53.280] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Dec2024 21:45:53.415] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Dec2024 21:45:53.931] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[14Dec2024 21:45:55.719] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:55.719] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:55.719] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:57.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:57.071] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:57.074] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[14Dec2024 21:45:57.410] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[14Dec2024 21:45:59.216] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[14Dec2024 21:45:59.218] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[14Dec2024 21:45:59.219] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[14Dec2024 21:45:59.405] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[14Dec2024 21:45:59.908] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[14Dec2024 21:46:00.413] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[14Dec2024 21:46:00.909] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[14Dec2024 21:46:01.421] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[14Dec2024 21:46:01.793] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 77389 ms
+[14Dec2024 21:46:01.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (80.575s)! For help, type "help"
+[14Dec2024 21:46:01.822] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Dec2024 21:46:01.860] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14Dec2024 21:46:01.871] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'robert-manuals.gl.at.ply.gg'
+[14Dec2024 21:46:01.871] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1565
+[14Dec2024 21:50:40.245] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,horsecombatcontrols:main,alexsmobs:main_channel,sereneseasons:main_channel,citadel:main_channel,callablehorses:callablehorseschannel] rejected their client side version number
+[14Dec2024 21:50:40.247] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[14Dec2024 21:50:40.283] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@17849f5a[id=<null>,name=WhiteR9se,properties={},legacy=false] (/127.0.0.1:53566) lost connection: Connection closed - mismatched mod channel list
+[14Dec2024 21:54:09.079] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,horsecombatcontrols:main,alexsmobs:main_channel,sereneseasons:main_channel,citadel:main_channel,callablehorses:callablehorseschannel] rejected their client side version number
+[14Dec2024 21:54:09.080] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[14Dec2024 21:54:09.125] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2471d60b[id=<null>,name=WhiteR9se,properties={},legacy=false] (/127.0.0.1:33106) lost connection: Connection closed - mismatched mod channel list
+[14Dec2024 21:54:58.691] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WhiteR9se[/127.0.0.1:59324] logged in with entity id 498 at (-725.9641066203499, 78.10119335419392, 2198.453433278231)
+[14Dec2024 21:54:58.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se joined the game
+[14Dec2024 21:54:59.605] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of WhiteR9se (18)
+[14Dec2024 21:54:59.609] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to WhiteR9se
+[14Dec2024 21:55:14.737] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3716ms or 74 ticks behind
+[14Dec2024 21:55:18.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set the time to 1000]
+[14Dec2024 21:55:22.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Set own game mode to Spectator Mode]
+[14Dec2024 21:55:28.584] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[14Dec2024 21:55:28.587] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[14Dec2024 21:55:28.647] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[14Dec2024 21:55:28.649] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[14Dec2024 21:55:37.764] [Worker-Main-21/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=1230, y=-58, z=45}
+[14Dec2024 21:55:38.382] [Worker-Main-26/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[14Dec2024 21:55:38.463] [Worker-Main-29/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[14Dec2024 21:55:38.469] [Worker-Main-29/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[14Dec2024 21:55:38.483] [Worker-Main-29/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[14Dec2024 21:55:40.447] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-44, y=-58, z=1458}
+[14Dec2024 21:55:47.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se was killed
+[14Dec2024 21:55:47.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [WhiteR9se: Killed WhiteR9se]
+[14Dec2024 21:58:26.558] [Worker-Main-28/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=1410, y=-58, z=47}
+[14Dec2024 21:58:26.582] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=1230, y=-58, z=45}
+[14Dec2024 21:59:25.634] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: WhiteR9se lost connection: Disconnected
+[14Dec2024 21:59:25.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WhiteR9se left the game
+[14Dec2024 21:59:25.638] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client WhiteR9se
+[14Dec2024 22:05:56.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Dec2024 22:05:56.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Dec2024 22:05:56.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Dec2024 22:05:56.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Dec2024 22:05:57.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Dec2024 22:05:57.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Dec2024 22:05:57.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Dec2024 22:05:57.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Dec2024 22:05:57.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Dec2024 22:05:57.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Dec2024 22:05:57.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Dec2024 22:05:57.789] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

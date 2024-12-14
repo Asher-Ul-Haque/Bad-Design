@@ -42,6 +42,7 @@
       "minecraft:badlands": "2024-09-19 15:42:18 +0530",
       "minecraft:savanna_plateau": "2024-06-16 17:45:33 +0530",
       "minecraft:beach": "2024-06-16 17:49:43 +0530",
+      "minecraft:dark_forest": "2024-11-21 08:45:23 +0530",
       "minecraft:mangrove_swamp": "2024-09-19 15:36:51 +0530",
       "minecraft:sparse_jungle": "2024-09-19 15:21:00 +0530",
       "minecraft:river": "2024-06-11 08:34:15 +0530",
@@ -56,6 +57,7 @@
       "minecraft:deep_cold_ocean": "2024-06-27 16:07:35 +0530",
       "minecraft:ice_spikes": "2024-06-27 16:43:18 +0530",
       "minecraft:frozen_ocean": "2024-07-10 21:28:55 +0530",
+      "minecraft:deep_frozen_ocean": "2024-11-21 08:02:42 +0530",
       "minecraft:ocean": "2024-06-16 17:46:46 +0530",
       "minecraft:snowy_beach": "2024-07-10 20:49:01 +0530",
       "minecraft:windswept_savanna": "2024-10-25 10:02:35 +0530",
@@ -6131,33 +6133,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
-    "criteria": {
-      "has_pink_tulip": "2024-11-19 17:49:10 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-11-19 18:02:24 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-19 18:02:24 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2024-11-19 16:59:16 +0530"
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-11-19 16:59:16 +0530"
+    },
+    "done": true
+  },
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:sentry_armor_trim_smithing_template_smithing_trim": "2024-11-19 16:59:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2024-11-19 17:49:10 +0530"
     },
     "done": true
   },
@@ -6173,24 +6169,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_candle": {
-    "criteria": {
-      "has_cyan_dye": "2024-11-19 18:02:24 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2024-11-19 16:59:16 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-11-19 18:02:24 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2024-11-19 18:02:19 +0530"
@@ -6200,6 +6178,222 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2024-11-19 18:02:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-19 18:02:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-11-21 08:37:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-11-21 08:42:16 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/pink_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/orange_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cyan_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/magenta_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2024-11-21 09:11:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/green_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/blue_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/white_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/black_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/warped_cabinet": {
+    "criteria": {
+      "has_warped_trapdoor": "2024-11-21 09:49:21 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/brown_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2024-11-21 09:34:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/gray_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/yellow_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/light_gray_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/lime_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/red_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/light_blue_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-11-21 09:38:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2024-11-21 09:38:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/purple_hanging_canvas_sign": {
+    "criteria": {
+      "has_hanging_canvas_sign": "2024-11-21 09:54:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-11-21 10:14:38 +0530"
     },
     "done": true
   },
